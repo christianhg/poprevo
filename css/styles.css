@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../images/bg.jpg);
+	margin: 0;
+}
+
+img {
+
+
+}
+
+#since2004-wrapper {
+	background: url(../images/since2004bg.jpg) center center repeat-x;
+}
+
+#since2004 {
+	margin: 0 auto;
+	width: 400px;
+}
+
+	#since2004 img {
+		max-width: 100%;
+		display: block;
+
+	}
