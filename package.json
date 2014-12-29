@@ -1,0 +1,16 @@
+{
+  "name": "Pop Revo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "express": "^4.10.5",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-imagemin": "^2.0.0",
+    "gulp-inject": "^1.0.2",
+    "gulp-livereload": "^3.0.2",
+    "gulp-plumber": "^0.6.6",
+    "gulp-ruby-sass": "^0.7.1"
+  }
+}

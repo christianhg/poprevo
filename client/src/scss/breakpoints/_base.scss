@@ -1,0 +1,37 @@
+@import '../modules/colors';
+@import '../modules/functions';
+@import '../modules/mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $black;
+  color: $white;
+}
+
+header {
+  display: none;
+  #logo {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  padding: 0 0 60px;
+}
+
+#content {
+
+}
+
+#page {
+  padding: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,8 @@
+bower_components
+.DS_Store
+.idea
+_layout
+node_modules
+_old
+.sass-cache
+Thumbs.db
