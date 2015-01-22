@@ -1,0 +1,11 @@
+@function em($target, $context: 14, $minus: false) {
+  @if $minus {
+    @return ($target / $context) * -1em;
+  } @else {
+    @return ($target / $context) * 1em;
+  }
+}
+
+@function pc($target, $context) {
+  @return ($target / $context) * 100%;
+}

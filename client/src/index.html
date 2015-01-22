@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="da" ng-app="poprevo" ng-controller="CoreController as vm">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pop Revo</title>
+    <title ng-bind="pageTitle"></title>
     <meta name="description" content="Providing pop revolutionary music for the people since 2004">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- vendor:css -->
@@ -14,18 +14,98 @@
 <body>
 <div id="page">
     <header>
-        <div id="logo">
-            <img src="img/logo.png" alt="Pop Revo">
+            <div id="top">
+                <div class="container">
+                    <ul id="social">
+                        <li class="facebook">
+                            <a href="#">
+                                <img src="assets/images/social/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="youtube">
+                            <a href="#">
+                                <img src="assets/images/social/youtube.svg" alt="YouTube">
+                            </a>
+                        </li>
+                        <li class="instagram">
+                            <a href="#">
+                                <img src="assets/images/social/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menubar">
+                <div class="container">
+                    <div class="logohorse">
+                        <div class="horse">
+                            <a ui-sref=".home">
+                                <img src="assets/images/layout/horse.svg" alt="Horse">
+                            </a>
+                        </div>
+                        <div class="logo">
+                            <a ui-sref=".home">
+                                <img src="assets/images/layout/logo.svg" alt="Pop Revo">
+                            </a>
+                        </div>
+                    </div>
+                    <nav id="menu">
+                        <div class="toggle-menu">Menu</div>
+                        <div class="buyticket">
+                            <a href="#">Køb billet</a>
+                        </div>
+                        <ul>
+                            <li class="front" ui-sref-active="active"><a ui-sref=".home">2015</a></li>
+                            <li ui-sref-active="active"><a ui-sref=".lineup">Lineup</a></li>
+                            <li ui-sref-active="active"><a ui-sref=".timetable">Timetable</a></li>
+                            <li ui-sref-active="active"><a ui-sref=".info">Info</a></li>
+                            <li ui-sref-active="active"><a ui-sref=".history">Historie</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="hero">
+                <div class="container">
+                    <div class="logo">
+                        <img src="assets/images/layout/logo.svg" alt="Pop Revo">
+                    </div>
+                    <div class="date">2015<br>14.5 - 16.5</div>
+                </div>
+            </div>
         </div>
     </header>
     <div id="content">
-        <div id="foxygen">
-            <img src="img/artists/foxygen.jpg" alt="Foxygen">
+        <div class="container">
+            <div ui-view></div>
         </div>
     </div>
     <footer>
-
+        <div id="contact">
+            <div class="container">
+                <p>Kontakt Pop Revo</p>
+            </div>
+        </div>
+        <div id="partners">
+            <div class="container">
+                <ul>
+                    <li class="aarhuskommune"><img src="assets/images/partners/aarhuskommune.svg" alt="Aarhus Kommune"></li>
+                    <li class="voxhall"><img src="assets/images/partners/voxhall.svg" alt="Voxhall"></li>
+                    <li class="atlas"><img src="assets/images/partners/atlas.svg" alt="Atlas"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="bottom">
+            <div class="container">
+                <div class="buyticket">
+                    <a href="#">Køb billet</a>
+                </div>
+                <div class="logohorsesince">
+                    <img src="assets/images/layout/logohorsesince.svg" alt="Pop Revo Since 2004">
+                </div>
+            </div>
+        </div>
     </footer>
+
     <!-- vendor:js -->
     <!-- endinject -->
     <!-- app:js -->

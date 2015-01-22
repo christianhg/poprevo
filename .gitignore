@@ -3,6 +3,8 @@ bower_components
 .idea
 _layout
 node_modules
+client/build
+client/dist
 _old
 .sass-cache
 Thumbs.db
