@@ -1,0 +1,26 @@
+.date {
+	font-family: $serif;
+	letter-spacing: 3px;
+	padding-bottom: 28px;
+	text-align: center;
+	.year {
+		display: block;
+		font-size: em(28,14);
+		font-weight: bold;
+		padding-bottom: em(28,28);
+
+	}
+	.days {
+		display: block;
+		line-height: 0;
+		.dash {
+			letter-spacing: 0;
+			position: relative;
+			top: -0.5em;
+		}
+	}
+	.place {
+		display: block;
+		text-transform: uppercase;
+	}
+}

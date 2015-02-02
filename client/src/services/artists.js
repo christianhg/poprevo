@@ -25,7 +25,7 @@
                     link: ''
                 }
             },
-            {
+            /*{
                 name: 'Moon Duo'
             },
             {
@@ -63,7 +63,7 @@
             },
             {
                 name: 'Lust For Youth'
-            }
+            }*/
         ];
 
         return {

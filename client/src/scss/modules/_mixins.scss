@@ -1,4 +1,4 @@
-@mixin responsive($width) {
+/*@mixin responsive($width) {
   @if $width == width-small {
     @media only screen and (min-width: $width-small) {
       @content;
@@ -14,4 +14,14 @@
       @content;
     }
   }
+}*/
+
+@mixin bp($width) {
+  @media only screen and (min-width: $width + 'px') {
+    @content;
+  }
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+  transition: $transition-property $transition-time $method;
 }

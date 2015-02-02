@@ -202,6 +202,7 @@
         'copyAppJS',
         'minifyImages',
         //'copyAssets',
+        'copyFavicon',
         'copyIndex',
         'copyVendorCSS',
         'copyVendorJS',
@@ -380,6 +381,11 @@
      */
     gulp.task('copyIndex', ['clean:build'], function () {
         return gulp.src(paths.client.src.base + files.index)
+            .pipe(gulp.dest(paths.client.build.base));
+    });
+
+    gulp.task('copyFavicon', ['clean:build'], function() {
+        return gulp.src(['favicon.ico'])
             .pipe(gulp.dest(paths.client.build.base));
     });
 

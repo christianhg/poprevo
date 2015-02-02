@@ -1,0 +1,37 @@
+#poster {
+	#artists {
+		padding: 42px 0;
+	}
+	.artist {
+		font-family: $sans-serif;
+		font-weight: bold;
+		&.medium {
+
+			font-size: em(56,14);
+			line-height: em(70,56);
+			.origin {
+				font-size: em(28,56);
+			}
+		}
+		&.big {
+
+			font-size: em(70,14);
+			line-height: em(98,70);
+			.origin {
+				font-size: em(28,70);
+			}
+		}
+		.origin {
+			font-family: $serif;
+			font-weight: normal;
+			font-style: italic;
+			margin-top: -2w0px;
+		}
+	}
+
+	.logosince {
+		margin: 0 auto;
+		padding-bottom: em(28,14);
+		width: em(98,14) * $logosinceAspect;
+	}
+}

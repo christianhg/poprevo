@@ -6,35 +6,37 @@
     <title ng-bind="pageTitle"></title>
     <meta name="description" content="Providing pop revolutionary music for the people since 2004">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- vendor:css -->
     <!-- endinject -->
     <!-- app:css -->
     <!-- endinject -->
 </head>
 <body>
-<div id="page">
-    <header>
+    <div id="page">
+        <header>
             <div id="top">
                 <div class="container">
                     <ul id="social">
                         <li class="facebook">
-                            <a href="#">
+                            <a href="https://www.facebook.com/pages/Pop-Revo/211182660758">
                                 <img src="assets/images/social/facebook.svg" alt="Facebook">
                             </a>
                         </li>
                         <li class="youtube">
-                            <a href="#">
+                            <a href="https://www.youtube.com/channel/UCnU_oJ-JiRMeyl8ntrkee1g/playlists
+                            ">
                                 <img src="assets/images/social/youtube.svg" alt="YouTube">
                             </a>
                         </li>
                         <li class="instagram">
-                            <a href="#">
+                            <a href="http://instagram.com/poprevo">
                                 <img src="assets/images/social/instagram.svg" alt="Instagram">
                             </a>
                         </li>
-                    </ul>
-                </div>
-            </div>
+                    </ul><!-- /social -->
+                </div><!-- /container -->
+            </div><!-- /top -->
             <div id="menubar">
                 <div class="container">
                     <div class="logohorse">
@@ -48,22 +50,27 @@
                                 <img src="assets/images/layout/logo.svg" alt="Pop Revo">
                             </a>
                         </div>
+                    </div><!-- /logohorse -->
+                    <div class="date">
+                        <span class="year">2015</span>
+                        <span class="days">14 <span class="dash">___</span> 16.5</span>
+                        <span class="place">Voxhall, Atlas</span>
+                    </div>
+                    <div class="buyticket">
+                        <a href="http://fondenvoxhall.dk/koncerter/pop-revo-2015/">Køb billet</a>
                     </div>
                     <nav id="menu">
-                        <div class="toggle-menu">Menu</div>
-                        <div class="buyticket">
-                            <a href="#">Køb billet</a>
-                        </div>
-                        <ul>
-                            <li class="front" ui-sref-active="active"><a ui-sref=".home">2015</a></li>
-                            <li ui-sref-active="active"><a ui-sref=".lineup">Lineup</a></li>
-                            <li ui-sref-active="active"><a ui-sref=".timetable">Timetable</a></li>
-                            <li ui-sref-active="active"><a ui-sref=".info">Info</a></li>
-                            <li ui-sref-active="active"><a ui-sref=".history">Historie</a></li>
+                        <div id="toggle-menu"><a ng-class="$menuOpen ? 'active'" ng-click="toggleMenu()">Menu</a></div>
+                        <ul id="menu-items" ng-show="menuOpen">
+                            <li class="menu-item front" ui-sref-active="selected"><a ui-sref=".home">2015</a></li>
+                            <li class="menu-item inactive" ui-sref-active="selected"><a ui-sref=".lineup">Lineup</a></li>
+                            <li class="menu-item inactive" ui-sref-active="selected"><a ui-sref=".timetable">Timetable</a></li>
+                            <li class="menu-item inactive" ui-sref-active="selected"><a ui-sref=".info">Info</a></li>
+                            <li class="menu-item inactive last" ui-sref-active="selected"><a ui-sref=".history">Historie</a></li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
+                    </nav><!-- /menu -->
+                </div><!-- /container -->
+            </div><!-- /menubar -->
             <div id="hero">
                 <div class="container">
                     <div class="logo">
@@ -71,45 +78,45 @@
                     </div>
                     <div class="date">2015<br>14.5 - 16.5</div>
                 </div>
-            </div>
-        </div>
-    </header>
-    <div id="content">
-        <div class="container">
-            <div ui-view></div>
-        </div>
-    </div>
-    <footer>
-        <div id="contact">
+            </div><!-- /hero -->
+        </header>
+        <div id="content">
             <div class="container">
-                <p>Kontakt Pop Revo</p>
+                <div ui-view></div>
             </div>
-        </div>
-        <div id="partners">
-            <div class="container">
-                <ul>
-                    <li class="aarhuskommune"><img src="assets/images/partners/aarhuskommune.svg" alt="Aarhus Kommune"></li>
-                    <li class="voxhall"><img src="assets/images/partners/voxhall.svg" alt="Voxhall"></li>
-                    <li class="atlas"><img src="assets/images/partners/atlas.svg" alt="Atlas"></li>
-                </ul>
-            </div>
-        </div>
-        <div id="bottom">
-            <div class="container">
-                <div class="buyticket">
-                    <a href="#">Køb billet</a>
+        </div><!-- /content -->
+        <footer>
+            <div id="contact">
+                <div class="container">
+                    <p>Kontakt Pop Revo</p>
                 </div>
-                <div class="logohorsesince">
-                    <img src="assets/images/layout/logohorsesince.svg" alt="Pop Revo Since 2004">
+            </div><!-- /contact -->
+            <div id="partners">
+                <div class="container">
+                    <ul>
+                        <li class="aarhuskommune"><img src="assets/images/partners/aarhuskommune.svg" alt="Aarhus Kommune"></li>
+                        <li class="badstuerock"><img src="assets/images/partners/badstuerock.png" alt="Badstuerock"></li>
+                        <li class="atlas"><img src="assets/images/partners/atlas.svg" alt="Atlas"></li>
+                        <li class="smashbangpow"><img src="assets/images/partners/smashbangpow.png" alt="Smash!Bang!Pow!"></li>
+                        <li class="voxhall"><img src="assets/images/partners/voxhall.svg" alt="Voxhall"></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- vendor:js -->
-    <!-- endinject -->
-    <!-- app:js -->
-    <!-- endinject -->
-</div>
+            </div><!-- /partners -->
+            <div id="bottom">
+                <div class="container">
+                    <div class="buyticket">
+                        <a href="http://fondenvoxhall.dk/koncerter/pop-revo-2015/">Køb billet</a>
+                    </div>
+                    <div class="logohorsesince">
+                        <img src="assets/images/layout/logohorsesince.svg" alt="Pop Revo Since 2004">
+                    </div>
+                </div>
+            </div><!-- /bottom -->
+        </footer>
+        <!-- vendor:js -->
+        <!-- endinject -->
+        <!-- app:js -->
+        <!-- endinject -->
+    </div><!-- /page -->
 </body>
 </html>
