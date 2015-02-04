@@ -53,13 +53,13 @@ header {
       float: left;
     }
     .horse {
-      width: em(56,14) * $horseAspect;
       margin: em(28, 14) auto;
-
+      width: em(56,14) * $horseAspect;
     }
     .logo {
-      width: em(84,14) * $logoAspect;
       margin: em(28, 14) auto;
+      width: em(84,14) * $logoAspect;
+
       @include bp(1000) {
         display: none;
       }
@@ -73,15 +73,26 @@ header {
   .buyticket {
     margin-bottom: 2em;
     text-align: center;
+
+    @include bp(1000) {
+      float: left;
+      margin-bottom: 0;
+      margin-top: em(42,14);
+      margin-left: 40px;
+    }
     a {
       border: em(1, 14) solid $black;
-
       color: $black;
       display: inline-block;
       line-height: em(40, 14);
       padding: 0 20px;
       text-decoration: none;
       transition: all 0.2s ease-in-out;
+
+      @include bp(1000) {
+        line-height: em(26,14);
+        padding: 0 10px;
+      }
 
       &:hover {
         color: $yellow;
@@ -90,28 +101,14 @@ header {
     }
   }
   #menu {
-
-
-    @include bp(1000) {
-      #toggle-menu {
-        display: none;
-      }
-      .buyticket {
-        float: left;
-      }
-      #menu-items {
-
-      }
-    }
-
     #toggle-menu {
       display: block;
       text-align: center;
       position: relative;
       z-index: 2;
-
-
-
+      @include bp(1000) {
+        display: none;
+      }
       a {
         border: 1px solid $black;
         color: $black;
@@ -122,6 +119,9 @@ header {
         &.active {
           background: darken($yellow, 15%);
           border-bottom: 1px solid darken($yellow, 15%);
+          &:hover {
+            background: $yellow;
+          }
         }
         &:hover {
           background: darken($yellow, 15%);
@@ -130,18 +130,31 @@ header {
       }
     }
     ul#menu-items {
+      @extend %clearfix;
       background: darken($yellow, 15%);
       border-top: 1px solid $black;
       border-bottom: 1px solid $black;
+      display: none;
       margin: -1px -40px 0;
       position: relative;
       z-index: 1;
-      @extend %clearfix;
+
+      &.active {
+        display: block;
+      }
+
+      @include bp(1000) {
+        background: none;
+        border: none;
+        margin: 0;
+        float: right;
+        &.inactive {
+          display: block;
+        }
+      }
+
       li.menu-item {
         border-bottom: 1px solid $yellow;
-
-        //float: left;
-        //width: 20%;
         display: block;
         &.inactive {
           a {
@@ -151,6 +164,10 @@ header {
         &.last {
           border: none;
         }
+        @include bp(1000) {
+          float: left;
+          
+        }
         a {
           display: block;
           line-height: em(42, 14);
@@ -158,6 +175,16 @@ header {
           text-transform: uppercase;
           text-align: center;
           color: $black;
+          &:hover {
+            background: $yellow;
+          }
+          @include bp(1000) {
+            line-height: em(112,14);
+            margin-left: 40px;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
         }
       }
       li.front {
@@ -174,9 +201,7 @@ header {
     display: block;
   }
   .logo {
-    //display: none;
-    width: em(112,14) * $logoAspect;
+    width: em(154, 14) * $logoAspect;
     margin: em(28, 14) auto;
   }
-
 }

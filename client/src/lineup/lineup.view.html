@@ -1,4 +1,4 @@
-<div ng-repeat="artist in vm.artists | orderBy:'name' | filter: { active: true }">
+<div ng-repeat="artist in vm.artists | orderBy:'name'" ng-class="$even ? 'even' : 'odd'">
     {{artist.name}}
     <img ng-src="assets/images/artists/{{artist.image}}" alt="{{artist.name}}">
 </div>
