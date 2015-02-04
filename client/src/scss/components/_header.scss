@@ -1,142 +1,182 @@
 header {
-	background: $yellow;
-	font-family: $sans-serif;
-	padding-bottom: em(28,14);
+  background: $yellow;
+  color: $black;
+  font-family: $sans-serif;
+  padding-bottom: em(28, 14);
 }
 
 #top {
-	background-color: darken($yellow, 15%);
-	#social {
-		@extend %clearfix;
-		li {
-			padding: em(18,14) 0;
-			display: block;
-			width: 33%;
-			float: left;
-			@include bp(800) {
-				width: auto;
-				float: right;
-				margin-left: 20px;
-			}
-			a {
-				display: block;
-				margin: 0 auto;
-			}
-		}
-		.instagram {
-			a {
-				width: 20px;
-			}
+  background-color: darken($yellow, 15%);
+  #social {
+    @extend %clearfix;
+    li {
+      padding: em(18, 14) 0;
+      display: block;
+      width: 33%;
+      float: left;
+      @include bp(800) {
+        width: auto;
+        float: right;
+        margin-left: 20px;
+      }
+      a {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .instagram {
+      a {
+        width: 20px;
+      }
 
-		}
-		.facebook {
-			a {
-				width: 20px;
-			}
+    }
+    .facebook {
+      a {
+        width: 20px;
+      }
 
-		}
-		.youtube {
-			a {
-				width: 28px;
-			}
-		}
-	}
+    }
+    .youtube {
+      a {
+        width: 28px;
+      }
+    }
+  }
 }
 
 #menubar {
-	.logohorse {
-		.horse {
-			width: em(56,14) * $horseAspect;
-			margin: em(28,14) auto;
-		}
-		.logo {
-			width: em(84,14) * $logoAspect;
-			margin: em(28,14) auto;
-		}
-	}
-	.buyticket {
-		//margin-bottom: 2em;
-		text-align: center;
-		a {
-			border: em(1,14) solid $black;
-			color: $black;
-			display: inline-block;
-			line-height: em(40,14);
+  .container {
+    @extend %clearfix;
+  }
+  .logohorse {
+    @include bp(1000) {
+      float: left;
+    }
+    .horse {
+      width: em(56,14) * $horseAspect;
+      margin: em(28, 14) auto;
 
-			padding: 0 20px;
-			text-decoration: none;
-			transition: all 0.2s ease-in-out;
+    }
+    .logo {
+      width: em(84,14) * $logoAspect;
+      margin: em(28, 14) auto;
+      @include bp(1000) {
+        display: none;
+      }
+    }
+  }
+  date {
+    @include bp(1000) {
+      display: none;
+    }
+  }
+  .buyticket {
+    margin-bottom: 2em;
+    text-align: center;
+    a {
+      border: em(1, 14) solid $black;
 
-			&:hover {
-				color: $yellow;
-				background: $black;
-			}
-		}
-	}
-	#menu {
-		display: none;
-		#toggle-menu {
-			display: block;
-			text-align: center;
-			a {
-				border: 1px solid $black;
-				color: $black;
-				cursor: pointer;
-				display: inline-block;
-				padding: 0 10px;
-				&.active,
-				&:hover {
-					background: darken($yellow, 15%);
-				}
-			}
-		}
-		ul#menu-items {
-			background: darken($yellow, 15%);
-			margin: 0 -10px;
-			@extend %clearfix;
-			li.menu-item {
-				border-bottom: 1px solid $yellow;
+      color: $black;
+      display: inline-block;
+      line-height: em(40, 14);
+      padding: 0 20px;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
 
-				//float: left;
-				//width: 20%;
-				display: block;
-				&.inactive {
-					a {
-						text-decoration: line-through;
-					}
-				}
-				&.last {
-					border: none;
-				}
-				a {
-					display: block;
-					line-height: em(42,14);
-					text-decoration: none;
-					text-transform: uppercase;
-					text-align: center;
-					color: $black;
-				}
-			}
-			li.front {
-				//display: none;
-			}
-		}
-	}
+      &:hover {
+        color: $yellow;
+        background: $black;
+      }
+    }
+  }
+  #menu {
+
+
+    @include bp(1000) {
+      #toggle-menu {
+        display: none;
+      }
+      .buyticket {
+        float: left;
+      }
+      #menu-items {
+
+      }
+    }
+
+    #toggle-menu {
+      display: block;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+
+
+
+      a {
+        border: 1px solid $black;
+        color: $black;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 10px;
+
+        &.active {
+          background: darken($yellow, 15%);
+          border-bottom: 1px solid darken($yellow, 15%);
+        }
+        &:hover {
+          background: darken($yellow, 15%);
+
+        }
+      }
+    }
+    ul#menu-items {
+      background: darken($yellow, 15%);
+      border-top: 1px solid $black;
+      border-bottom: 1px solid $black;
+      margin: -1px -40px 0;
+      position: relative;
+      z-index: 1;
+      @extend %clearfix;
+      li.menu-item {
+        border-bottom: 1px solid $yellow;
+
+        //float: left;
+        //width: 20%;
+        display: block;
+        &.inactive {
+          a {
+            text-decoration: line-through;
+          }
+        }
+        &.last {
+          border: none;
+        }
+        a {
+          display: block;
+          line-height: em(42, 14);
+          text-decoration: none;
+          text-transform: uppercase;
+          text-align: center;
+          color: $black;
+        }
+      }
+      li.front {
+        //display: none;
+      }
+    }
+  }
 
 }
 
-
 #hero {
-	display: none;
-	.logo {
-		//display: none;
-		width: em(112,14) * $logoAspect;
-		margin: em(28,14) auto;
-	}
-	.date {
-		/*text-align: center;
-		font-family: $serif;
-		font-size: em(28, 14);
-		line-height: 2em;*/
-	}
+  display: none;
+  @include bp(1000) {
+    display: block;
+  }
+  .logo {
+    //display: none;
+    width: em(112,14) * $logoAspect;
+    margin: em(28, 14) auto;
+  }
+
 }

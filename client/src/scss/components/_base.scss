@@ -1,23 +1,25 @@
 body {
-	background: $white;
-	color: $black;
-	font-family: $serif;
-	font-size: 14px;
-	line-height: em(28,14);
+  background: $black;
+  color: $white;
+  font-family: $serif;
+  font-size: 14px;
+  line-height: em(28, 14);
 }
 
 .container {
-	max-width: 400px;
-	margin: 0 auto;
-	padding: 0 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+  @include bp(1000) {
+
+  }
 }
 
-
 img {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a {
-	color: $yellow;
+  color: $yellow;
 }

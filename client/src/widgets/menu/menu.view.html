@@ -1,0 +1,10 @@
+<nav id="menu">
+    <div id="toggle-menu"><a ng-class="menuOpen ? 'active' : 'inactive'" ng-click="toggleMenu()">Menu</a></div>
+    <ul id="menu-items" ng-show="menuOpen">
+        <li class="menu-item front" ui-sref-active="selected"><a ui-sref=".home">2015</a></li>
+        <li class="menu-item" ui-sref-active="selected"><a ui-sref=".lineup">Lineup</a></li>
+        <li class="menu-item" ui-sref-active="selected"><a ui-sref=".timetable">Timetable</a></li>
+        <li class="menu-item" ui-sref-active="selected"><a ui-sref=".info">Info</a></li>
+        <li class="menu-item last" ui-sref-active="selected"><a ui-sref=".history">Historie</a></li>
+    </ul>
+</nav>

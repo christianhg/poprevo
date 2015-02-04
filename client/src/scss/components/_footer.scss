@@ -1,70 +1,107 @@
 footer {
-	background: $yellow;
+  background: $yellow;
+  color: $black;
 }
 
 #contact {
-	text-align: center;
-	line-height: em(84,14);
-	.container {
-		border-bottom: em(2,14) solid $black;
-	}
-	//margin-bottom: em(42,14);
+  display: none;
+  text-align: center;
+  line-height: em(84, 14);
+  .container {
+    border-bottom: em(2, 14) solid $black;
+  }
+  //margin-bottom: em(42,14);
 }
 
 #partners {
-	.container {
-		padding: em(42,14) 10px 0;
-	}
-	li {
-		display: block;
-		margin: 0 auto em(42,14);
-	}
-	.aarhuskommune {
-		width: em(70,14) * $aarhusAspect;
-	}
-	.atlas {
-		width: em(56,14) * $atlasAspect;
-	}
-	.badstuerock {
-		width: em(126,14) * $badstueAspect;
-	}
-	.smashbangpow {
-		width: em(84,14) * $smashAspect;
-	}
-	.voxhall {
-		width: em(28,14) * $voxhallAspect;
-	}
+
+  .container {
+    @extend %clearfix;
+    padding: em(42, 14) 10px 0;
+  }
+  @include bp(1000) {
+    text-align: center;
+  }
+
+
+  li {
+    display: block;
+    margin: 0 auto em(42, 14);
+
+    @include bp(1000) {
+      //float: left;
+      display: inline-block;
+      margin: 0 40px em(42,14);
+      &.aarhuskommune {
+
+
+        padding: em(28,14) 0;
+
+      }
+      &.atlas {
+
+        padding: em(35,14) 0;
+      }
+      &.badstuerock {
+        //padding: 0 20px;
+
+      }
+      &.smashbangpow {
+        padding: em(21,14) 0;
+
+      }
+      &.voxhall {
+        padding: em(49,14) 0;
+
+      }
+    }
+  }
+  .aarhuskommune {
+    width: em(70,14) * $aarhusAspect;
+  }
+  .atlas {
+    width: em(56,14) * $atlasAspect;
+  }
+  .badstuerock {
+    width: em(126,14) * $badstueAspect;
+  }
+  .smashbangpow {
+    width: em(84,14) * $smashAspect;
+  }
+  .voxhall {
+    width: em(28,14) * $voxhallAspect;
+  }
 }
 
 #bottom {
-	background: $black;
-	.container {
-		padding: em(72,14) 10px;
-	}
-	.buyticket {
+  background: $black;
+  .container {
+    padding: em(72, 14) 10px;
+  }
+  .buyticket {
 
-		margin: 0 0 em(72,14);
-		text-align: center;
+    margin: 0 0 em(72, 14);
+    text-align: center;
 
-		a {
-			display: inline-block;
-			text-decoration: none;
-			font-family: $sans-serif;
-			font-size: em(28,14);
-			line-height: em(56,28);
-			border: em(1,28) solid $yellow;
-			padding: 0 20px;
-			text-transform: uppercase;
-			transition: all 0.2s ease-in-out;
-			&:hover {
-				background: $yellow;
-				color: $black;
-			}
-		}
-	}
+    a {
+      display: inline-block;
+      text-decoration: none;
+      font-family: $sans-serif;
+      font-size: em(28, 14);
+      line-height: em(56, 28);
+      border: em(1, 28) solid $yellow;
+      padding: 0 20px;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: $yellow;
+        color: $black;
+      }
+    }
+  }
 
-	.logohorsesince {
-		width: em(532,14) * $logohorsesinceAspect;
-		margin: 0 auto;
-	}
+  .logohorsesince {
+    width: em(532,14) * $logohorsesinceAspect;
+    margin: 0 auto;
+  }
 }
