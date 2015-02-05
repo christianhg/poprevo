@@ -22,6 +22,15 @@ header {
       a {
         display: block;
         margin: 0 auto;
+        img {
+          opacity: 0.8;
+          transition: opacity 0.2s ease-in-out;
+        }
+        &:hover {
+          img {
+            opacity: 1;
+          }
+        }
       }
     }
     .instagram {
@@ -121,6 +130,7 @@ header {
           border-bottom: 1px solid darken($yellow, 15%);
           &:hover {
             background: $yellow;
+            border-bottom: 1px solid $yellow;
           }
         }
         &:hover {
@@ -156,9 +166,9 @@ header {
       li.menu-item {
         border-bottom: 1px solid $yellow;
         display: block;
-        &.inactive {
+        &.selected {
           a {
-            text-decoration: line-through;
+            background: $yellow;
           }
         }
         &.last {
@@ -166,7 +176,19 @@ header {
         }
         @include bp(1000) {
           float: left;
-          
+          padding: em(42,14) 0;
+          &.selected {
+            a {
+              text-decoration: none;
+              background: $black;
+              color: $yellow;
+              border: em(1,14) solid $black;
+              &:hover {
+
+                background: $black;
+              }
+            }
+          }
         }
         a {
           display: block;
@@ -174,15 +196,28 @@ header {
           text-decoration: none;
           text-transform: uppercase;
           text-align: center;
+          transition: all 0.2s ease-in-out;
           color: $black;
+          &.inactive {
+            text-decoration: line-through;
+          }
           &:hover {
             background: $yellow;
+            &.inactive {
+              background: darken($yellow, 15%);
+            }
           }
           @include bp(1000) {
-            line-height: em(112,14);
+            line-height: em(26,14);
+            border: em(1,14) solid $yellow;
+            padding: 0 10px;
             margin-left: 40px;
             &:hover {
-              text-decoration: underline;
+              border: em(1,14) solid $black;
+              &.inactive {
+                border: em(1,14) solid $yellow;
+              }
+
             }
           }
         }

@@ -13,7 +13,7 @@
                 controller: 'LineupController',
                 controllerAs: 'vm',
                 data: {
-                    pageTitle: 'Lineup'
+                    pageTitle: 'Pop Revo > Lineup'
                 }
             });
     }

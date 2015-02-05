@@ -5,11 +5,11 @@
         .module('poprevo.info')
         .controller('InfoController', InfoController);
 
-    function InfoController(artists) {
+    function InfoController() {
 
         var vm = this;
 
-        vm.artists = artists.index();
+
 
     }
 })();

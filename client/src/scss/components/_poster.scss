@@ -8,11 +8,11 @@
     }
   }
   .artist {
+    margin: 0 0 em(28,14);
     h2 {
       font-family: $sans-serif;
       font-weight: bold;
       &.medium {
-
         font-size: em(56, 14);
         line-height: em(70, 56);
         .origin {

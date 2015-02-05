@@ -5,11 +5,10 @@
         .module('poprevo.history')
         .controller('HistoryController', HistoryController);
 
-    function HistoryController(artists) {
+    function HistoryController() {
 
         var vm = this;
 
-        vm.artists = artists.index();
 
     }
 })();
