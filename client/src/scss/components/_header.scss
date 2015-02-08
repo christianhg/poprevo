@@ -109,7 +109,7 @@ header {
       }
     }
   }
-  #menu {
+  nav#menu {
     #toggle-menu {
       display: block;
       text-align: center;
@@ -184,7 +184,6 @@ header {
               color: $yellow;
               border: em(1,14) solid $black;
               &:hover {
-
                 background: $black;
               }
             }
@@ -215,6 +214,7 @@ header {
             &:hover {
               border: em(1,14) solid $black;
               &.inactive {
+                background: $yellow;
                 border: em(1,14) solid $yellow;
               }
 

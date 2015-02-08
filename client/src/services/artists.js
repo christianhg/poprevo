@@ -14,7 +14,7 @@
                     day: '',
                     length: '',
                     time: '',
-                    venue: '',
+                    venue: ''
                 },
                 name: 'Foxygen',
                 image: 'foxygen.jpg',
@@ -27,9 +27,13 @@
                 }
             },
             {
+                active: true,
                 country: 'UK',
                 concert: {
-
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
                 },
                 name: 'Happyness',
                 image: 'happyness.jpg',
@@ -42,13 +46,17 @@
                 }
             },
             {
+                active: true,
                 country: 'CA',
                 concert: {
-
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
                 },
                 name: 'Viet Cong',
                 image: 'vietcong.jpg',
-                info: 'Viet Cong støver 60‘er-garagen af og fylder den i højt tempo med fremragende, fræsende guitarspil og fængende postpunkede melodier. Bestående af medlemmer fra de hedengangne lo-fi-helte Woman og Chad VanGaalens liveband er Viet Cong en kompetent kvartet udi den ikke helt lette disciplin at skabe skarptskårne, Wall of Sound-catchy sange i et kulsort univers med alvoren tydeligt markeret i det indestængte blik. Viet Cong udgav i januar deres selvbetitlede debutalbum til anmelderros over hele linjen - britiske The 405 skrev det præcist, da de overgav sig fuldkommen til albummet med karakteren 9/10 og den afsluttende bedømmelse: “So fuck the narrative. Fuck Women. Fuck the acrid stench of banality emanating from modern rock. Listen to Viet Cong." Så gør det. Lyt til albummet indtil bandet indtager Pop Revo 2015.',
+                info: 'Viet Cong støver 60‘er-garagen af og fylder den i højt tempo med fremragende, fræsende guitarspil og fængende postpunkede melodier. Bestående af medlemmer fra de hedengangne lo-fi-helte Woman og Chad VanGaalens liveband er Viet Cong en kompetent kvartet udi den ikke helt lette disciplin at skabe skarptskårne, Wall of Sound-catchy sange i et kulsort univers med alvoren tydeligt markeret i det indestængte blik.\nViet Cong udgav i januar deres selvbetitlede debutalbum til anmelderros over hele linjen - britiske The 405 skrev det præcist, da de overgav sig fuldkommen til albummet med karakteren 9/10 og den afsluttende bedømmelse: “So fuck the narrative. Fuck Women. Fuck the acrid stench of banality emanating from modern rock. Listen to Viet Cong."\nSå gør det. Lyt til albummet indtil bandet indtager Pop Revo 2015.',
                 size: 'medium',
                 slug: 'vietcong',
                 sound: {

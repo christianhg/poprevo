@@ -10,7 +10,7 @@
             $scope.pageTitle = toState.data.pageTitle;
         });
 
-        $scope.menuOpen = true;
+        $scope.menuOpen = false;
 
         $scope.toggleMenu = function() {
             $scope.menuOpen = !$scope.menuOpen;

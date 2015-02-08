@@ -34,8 +34,8 @@
         font-weight: normal;
         font-style: italic;
         position: relative;
-        font-size: em(28, 56);
-        top: -0.4em;
+        font-size: em(20, 56);
+        top: -0.8em;
       }
       @include bp(800) {
         font-size: em(56,14);
