@@ -54,8 +54,38 @@ header {
 }
 
 #menubar {
+  background: $yellow;
+  transition: top 0.2s ease-in-out;
   .container {
     @extend %clearfix;
+  }
+
+  @include bp(1000) {
+    &.sticky {
+      box-shadow: 0 5px 5px 0 rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+      .logohorse {
+        .horse {
+          margin: em(14,14) auto;
+          width: em(41,14) * $horseAspect;
+        }
+      }
+      .buyticket {
+        margin-top: em(21,14);
+      }
+
+      #menu {
+        #menu-items {
+          .menu-item {
+            padding: em(21,14) 0;
+          }
+        }
+      }
+    }
+
   }
   .logohorse {
     @include bp(1000) {
@@ -63,6 +93,7 @@ header {
     }
     .horse {
       margin: em(28, 14) auto;
+      transition: all 0.2s ease-in-out;
       width: em(56,14) * $horseAspect;
     }
     .logo {
@@ -83,11 +114,13 @@ header {
     margin-bottom: 2em;
     text-align: center;
 
+
     @include bp(1000) {
       float: left;
       margin-bottom: 0;
       margin-top: em(42,14);
       margin-left: 40px;
+      transition: margin 0.2s ease-in-out;
     }
     a {
       border: em(1, 14) solid $black;
@@ -166,6 +199,7 @@ header {
       li.menu-item {
         border-bottom: 1px solid $yellow;
         display: block;
+        transition: padding 0.2s ease-in-out;
         &.selected {
           a {
             background: $yellow;
@@ -235,8 +269,14 @@ header {
   @include bp(1000) {
     display: block;
   }
+
   .logo {
-    width: em(154, 14) * $logoAspect;
+
     margin: em(28, 14) auto;
+    transition: width 0.2s ease-in-out;
+    width: em(98, 14) * $logoAspect;
+    @include vbp(800) {
+      width: em(154, 14) * $logoAspect;
+    }
   }
 }

@@ -1,0 +1,26 @@
+#festivals {
+  @extend %clearfix;
+  padding: 56px 0;
+
+  h2 {
+    line-height: em(42, 28);
+  }
+  .festival {
+    //width: 600px;
+    margin: 56px 0;
+    @include bp(600) {
+      float: left;
+      width: 50%;
+      padding: 0 20px 0;
+    }
+    @include bp(1000) {
+      width: 25%;
+    }
+    .festival-poster {
+      margin: 0 0 28px;
+    }
+    .festival-lineup {
+
+    }
+  }
+}

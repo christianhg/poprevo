@@ -25,3 +25,9 @@
 @mixin transition($transition-property, $transition-time, $method) {
   transition: $transition-property $transition-time $method;
 }
+
+@mixin vbp($height) {
+  @media only screen and (min-height: $height + 'px') {
+    @content;
+  }
+}

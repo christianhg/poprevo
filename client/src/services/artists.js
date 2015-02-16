@@ -63,6 +63,101 @@
                     type: 'youtube',
                     link: 'hdMz7BUtOvk'
                 }
+            },
+            {
+                active: true,
+                country: 'CA',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Doldrums',
+                image: 'doldrums.jpg',
+                info: 'Doldrums’ hårde elektro får på det kommende album The Air-Conditioned Nightmare fornyet energi til musklerne bag enmandshæren. Airick Woodheads projekts andet album er nemlig hans første på Sub Pop. Ikke kun på papiret er Doldrums sprunget til den Seattle-baserede indierock-gigant. Også i lyden høres skiftet fra det lokale, canadiske label Arbutus. På The Air-Conditioned Nightmare er lyden enorm: pågående, bombastisk - næsten skræmmende i den direkte sound opbygget af Woodheads manipulerede vokal og techno’ede beats, som snart er stabile, snart eksploderer. Du bliver budt op til en speeded dans.',
+                size: 'medium',
+                slug: 'doldrums',
+                sound: {
+                    type: 'youtube',
+                    link: '8vIP2ZEnxnc'
+                }
+            },
+            {
+                active: true,
+                country: 'SE',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Les Big Byrd',
+                image: 'lesbigbyrd.jpg',
+                info: 'Det næste store alternative rockband til at komme ud af Sverige? Sådan kunne det godt se ud, da den potente kvartet ærefrygtsskabende uimponeret gjorde deres første koncert i Danmark til en mindeværdig affære for Roskilde Festivals publikum i sommers. Overbevist var de nu også blevet af They Worshipped Cats, Les Big Byrds debutalbum fra 2014. Albummet er Les Big Byrds tour-de-force udi velskåret rock med psykedeliske udflugter og en krautet vedholdenhed - både i forrygende melodier (“Back To Bagarmossen”!) og i de instrumentale udflugter (bare lyt til titelnummeret). Brian Jonestown Massacra frontmanden Anton Newcombe er fan (og udgav faktisk albummet på sit label) med god grund - og vi slutter os gerne til ham.',
+                size: 'medium',
+                slug: 'lesbigbyrd',
+                sound: {
+                    type: 'youtube',
+                    link: 'X9HfTstqDMM'
+                }
+            },
+            {
+                active: true,
+                country: 'US',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Doug Tuttle',
+                image: 'dougtuttle.jpg',
+                info: 'Der er lejlighed til at pådrage sig et heftigt hallucinerende solstik, når amerikanske Doug Tuttle fyrer op for sine syrlige og klingende lo-fi-jams. I hans ekspanderende univers summer orientalske riffs ud og ind mellem folk-rock-guitarer og syntetiske trommer. Tuttle, der tidligere lavede Jefferson Airplane’sk psych-folk i hedengangne Mmoss, har et enkelt soloalbum med i bagagen, som flyder over med slingrende popsange med skævvredne melodier, der lyder, som var de indspillet på et smeltet kassettebånd fra 1969. Fans af bands som Woods, Morgan Delt og The Byrds vil være godt tilfredse.',
+                size: 'medium',
+                slug: 'dougtuttle',
+                sound: {
+                    type: 'youtube',
+                    link: 'jOTQulnVGUk'
+                }
+            },
+            {
+                active: true,
+                country: 'DK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Gooms',
+                image: 'gooms.jpg',
+                info: 'Gooms\' debutalbum, Beyond Life, landede i efteråret 2014 som en anarkistisk alien fra det ydre rum. Musikerne er Gooms er dog ikke fremmede for den danske indiescene - trioen består af Aske Zidore fra hedengangne Oh No Ono, Suni A Argjaboda og Jens Ramon (Figurines). Med lige dele psych, surf-pop og musikhistoriske traditioner osende ud af sangene, er Gooms lyd ikke sådan lige at indkapsle. Men en ting står klart: Gooms sikre melodiøsitet rykker ved din opfattelse af, hvad den ideelle popsang lyder som.',
+                size: 'medium',
+                slug: 'gooms',
+                sound: {
+                    type: 'youtube',
+                    link: 'lqGNeZYVrQ8'
+                }
+            },
+            {
+                active: true,
+                country: 'UK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'The Soft Walls',
+                image: 'thesoftwalls.jpg',
+                info: 'Engelske Soft Walls føres an af Dan Reeves, som også spiller med i Cold Pumas og er indehaver af det glimrende pladeselskab Faux Discx. Soft Walls\' andet album "No Time", som var et af sidste års bedste, men også mest oversete plader, er en skønsom blanding af indadvendt dream pop og støjende psychedelia med en post-punket kant. Ovenover den disede produktion svæver flakkende melodier, som stikker af fra de motoriske beats. Man taber både pusten og tidsfornemmelsen i Soft Walls’ hypnotiserende hybrid af bølgende rumklang og skurrende orgeldrones.',
+                size: 'medium',
+                slug: 'thesoftwalls',
+                sound: {
+                    type: 'youtube',
+                    link: 'hnm6TUTMymg'
+                }
             }
         ];
 

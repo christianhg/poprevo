@@ -33,6 +33,7 @@
         ],
         js: [
             'angular/angular.js',
+            'angular-animate/angular-animate.js',
             'angular-resource/angular-resource.js',
             'ui-router/release/angular-ui-router.js'
         ]
