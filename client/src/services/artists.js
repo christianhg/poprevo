@@ -23,7 +23,28 @@
                 slug: 'foxygen',
                 sound: {
                     type: 'youtube',
-                    link: ''
+                    link: 'PqW7EfA3VWE',
+                    title: 'How Can You Really'
+                }
+            },
+            {
+                active: true,
+                country: 'CA',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Viet Cong',
+                image: 'vietcong.jpg',
+                info: 'Viet Cong støver 60‘er-garagen af og fylder den i højt tempo med fremragende, fræsende guitarspil og fængende postpunkede melodier. Bestående af medlemmer fra de hedengangne lo-fi-helte Woman og Chad VanGaalens liveband er Viet Cong en kompetent kvartet udi den ikke helt lette disciplin at skabe skarptskårne, Wall of Sound-catchy sange i et kulsort univers med alvoren tydeligt markeret i det indestængte blik.\nViet Cong udgav i januar deres selvbetitlede debutalbum til anmelderros over hele linjen - britiske The 405 skrev det præcist, da de overgav sig fuldkommen til albummet med karakteren 9/10 og den afsluttende bedømmelse: “So fuck the narrative. Fuck Women. Fuck the acrid stench of banality emanating from modern rock. Listen to Viet Cong."\nSå gør det. Lyt til albummet indtil bandet indtager Pop Revo 2015.',
+                size: 'big',
+                slug: 'vietcong',
+                sound: {
+                    type: 'youtube',
+                    link: 'hdMz7BUtOvk',
+                    title: 'Continental Shelf'
                 }
             },
             {
@@ -42,28 +63,11 @@
                 slug: 'happyness',
                 sound: {
                     type: 'youtube',
-                    link: 'r0xnAisN8eA'
+                    link: 'r0xnAisN8eA',
+                    title: 'Anything I Do Is All Right'
                 }
             },
-            {
-                active: true,
-                country: 'CA',
-                concert: {
-                    day: '',
-                    length: '',
-                    time: '',
-                    venue: ''
-                },
-                name: 'Viet Cong',
-                image: 'vietcong.jpg',
-                info: 'Viet Cong støver 60‘er-garagen af og fylder den i højt tempo med fremragende, fræsende guitarspil og fængende postpunkede melodier. Bestående af medlemmer fra de hedengangne lo-fi-helte Woman og Chad VanGaalens liveband er Viet Cong en kompetent kvartet udi den ikke helt lette disciplin at skabe skarptskårne, Wall of Sound-catchy sange i et kulsort univers med alvoren tydeligt markeret i det indestængte blik.\nViet Cong udgav i januar deres selvbetitlede debutalbum til anmelderros over hele linjen - britiske The 405 skrev det præcist, da de overgav sig fuldkommen til albummet med karakteren 9/10 og den afsluttende bedømmelse: “So fuck the narrative. Fuck Women. Fuck the acrid stench of banality emanating from modern rock. Listen to Viet Cong."\nSå gør det. Lyt til albummet indtil bandet indtager Pop Revo 2015.',
-                size: 'medium',
-                slug: 'vietcong',
-                sound: {
-                    type: 'youtube',
-                    link: 'hdMz7BUtOvk'
-                }
-            },
+
             {
                 active: true,
                 country: 'CA',
@@ -80,7 +84,8 @@
                 slug: 'doldrums',
                 sound: {
                     type: 'youtube',
-                    link: '8vIP2ZEnxnc'
+                    link: '8vIP2ZEnxnc',
+                    title: 'She is the Wave (feat. Guy Dallas)'
                 }
             },
             {
@@ -99,7 +104,8 @@
                 slug: 'lesbigbyrd',
                 sound: {
                     type: 'youtube',
-                    link: 'X9HfTstqDMM'
+                    link: 'X9HfTstqDMM',
+                    title: 'Back to Bagarmossen'
                 }
             },
             {
@@ -118,7 +124,8 @@
                 slug: 'dougtuttle',
                 sound: {
                     type: 'youtube',
-                    link: 'jOTQulnVGUk'
+                    link: 'jOTQulnVGUk',
+                    title: 'With Us Soon'
                 }
             },
             {
@@ -137,7 +144,8 @@
                 slug: 'gooms',
                 sound: {
                     type: 'youtube',
-                    link: 'lqGNeZYVrQ8'
+                    link: 'lqGNeZYVrQ8',
+                    title: 'El Castell'
                 }
             },
             {
@@ -156,7 +164,8 @@
                 slug: 'thesoftwalls',
                 sound: {
                     type: 'youtube',
-                    link: 'hnm6TUTMymg'
+                    link: 'hnm6TUTMymg',
+                    title: 'No Time'
                 }
             }
         ];

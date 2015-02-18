@@ -10,7 +10,8 @@
             templateUrl: 'widgets/youtube/youtube.view.html',
             restrict: 'E',
             scope: {
-                link: '@link'
+                link: '@link',
+                title: '@title'
             }
         };
 

@@ -1,5 +1,10 @@
+body {
+  background: url("../../../assets/images/layout/pattern.png");
+}
+
 #poster {
   padding: 84px 0;
+
   @extend %clearfix;
   #artists {
 
@@ -12,20 +17,23 @@
     h2 {
       font-family: $sans-serif;
       font-weight: bold;
+      &.small {
+
+      }
       &.medium {
-        font-size: em(56, 14);
-        line-height: em(70, 56);
+        font-size: em(42, 14);
+        line-height: em(56, 42);
         .origin {
           font-size: em(28, 56);
-          top: -0.4em;
+          top: -0.7em;
         }
       }
       &.big {
         font-size: em(70, 14);
-        line-height: em(98, 70);
+        line-height: em(70, 70);
         .origin {
           font-size: em(28, 70);
-          top: -0.6em;
+          top: -1em;
         }
       }
       .origin {

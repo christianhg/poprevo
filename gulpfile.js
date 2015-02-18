@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var autoPrefixer = require('gulp-autoprefixer');
+    //var autoPrefixer = require('gulp-autoprefixer');
     var clean = require('gulp-clean');
     var concat = require('gulp-concat');
     var gulp = require('gulp');
@@ -346,7 +346,7 @@
         return gulp.src(sources.ignore.concat(sources.scss))
             .pipe(plumber())
             .pipe(sass({style: 'expanded'}))
-            .pipe(autoPrefixer('last 2 version'))
+            //.pipe(autoPrefixer('last 2 version'))
             .pipe(gulp.dest(paths.client.build.css.app));
     });
 

@@ -25,10 +25,14 @@
 
     .artist-name {
       font-family: $sans-serif;
-      font-size: em(42,14);
+      font-size: em(36,14);
+      line-height: 1;
       font-weight: bold;
       position: relative;
       z-index: 2;
+      @include bp(800) {
+        font-size: em(56,14);
+      }
       .origin {
         font-family: $serif;
         font-weight: normal;
@@ -37,9 +41,7 @@
         font-size: em(20, 56);
         top: -0.8em;
       }
-      @include bp(800) {
-        font-size: em(56,14);
-      }
+
     }
     .artist-image {
       position: relative;
@@ -49,6 +51,24 @@
         float: left;
         padding: 0 20px 0 0;
         width: 50%;
+      }
+
+      youtube {
+        a {
+          display: inline-block;
+          background: $yellow;
+          color: $black;
+          padding: 0 10px;
+          font-size: em(20,14);
+          text-decoration: none;
+          line-height: em(30,20);
+          border: em(1,20) solid $yellow;
+          margin: em(15,20,true) 0 0 10px;
+          &:hover {
+            background: $black;
+            color: $yellow
+          }
+        }
       }
     }
     .artist-info {
