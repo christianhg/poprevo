@@ -8,6 +8,7 @@
         .module('poprevo.core', [
             'ngAnimate',
             'ngResource',
-            'ui.router'
+            'ui.router',
+            'uiGmapgoogle-maps'
         ]);
 })();

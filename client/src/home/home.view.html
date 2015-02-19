@@ -2,7 +2,7 @@
     <div id="artists">
         <div class="artist {{artist.slug}}" ng-repeat="artist in vm.artists">
             <h2 class="{{artist.size}}">
-                {{artist.name}}
+                <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
                 <span class="origin">({{artist.country}})</span>
             </h2>
         </div>

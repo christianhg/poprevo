@@ -1,0 +1,11 @@
+<div class="artist">
+    <h2 class="artist-name {{artist.size}}">
+        {{artist.name}}
+        <span class="origin">({{artist.country}})</span>
+    </h2>
+    <div class="artist-image">
+        <img ng-src="assets/images/artists/{{artist.image}}" alt="{{artist.name}}">
+        <youtube link="{{artist.sound.link}}" title="{{artist.sound.title}}"></youtube>
+    </div>
+    <div class="artist-info">{{artist.info}}</div>
+</div>

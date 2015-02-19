@@ -6,15 +6,37 @@
     line-height: em(42, 28);
   }
   .festival {
+
     //width: 600px;
+
+
+
     margin: 56px 0;
     @include bp(600) {
       float: left;
       width: 50%;
       padding: 0 20px 0;
+      &.festival-3,
+      &.festival-5,
+      &.festival-7,
+      &.festival-9,
+      &.festival-11 {
+        clear: left;
+      }
     }
     @include bp(1000) {
       width: 25%;
+
+      &.festival-3,
+      &.festival-7,
+      &.festival-11 {
+        clear: none;
+      }
+
+      &.festival-5,
+      &.festival-9 {
+        clear: left;
+      }
     }
     .festival-poster {
       margin: 0 0 28px;

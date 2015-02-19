@@ -1,1 +1,28 @@
-w
+<div id="info">
+    <div id="info-text" class="info-box">
+        <p class="lead">Pop Revo er en tredags-festival der finder sted 14.-16. maj i hjertet af Aarhus.<br>Pop Revo kombinerer en førsteklasses samling af nutidens spirende talent med legendariske, one-of-a-kind artister som tilsammen skaber en uforlignelig stemning som elektrificerer byen.</p>
+        <p>Pop Revo præsenterer musik fra kanten af den legesyge indiescene uden at smide folk af i svinget. Pop Revo er ikke underlagt specifikke genrer eller modeluner. Pop Revos ukuelige passion er at få de bedste nye - såvel som de historisk betydningsfulde kunstnere – fra rundt om i verden til at spille til festivalen. Den uforudsigelighed i musikverden er selve Pop Revos rygrad. Siden 2004 har Pop Revo navigeret de bedste musikoplevelser frem fra den overvældende mængde, og skabt ærlige, personlige møder mellem musik og publikum på de aarhusianske spillesteder Voxhall og Atlas. Pop Revo har tidligere præsenteret artister som Future Islands, Grimes, Owen Pallet, The Clientele og The Whitest Boy Alive.</p>
+    </div>
+    <div id="info-map" class="info-box">
+        <h2>Spillesteder</h2>
+        <p>I 2015 finder festivalen sted på de regionale spillesteder Atlas, Radar og Voxhall.</p>
+        <ui-gmap-google-map center='vm.map.center' zoom='vm.map.zoom'>
+            <ui-gmap-markers models="vm.venueMarkers" coords="'self'" icon="'icon'">
+            </ui-gmap-markers>
+
+        </ui-gmap-google-map>
+    </div>
+    <div id="info-tickets" class="info-box">
+        <h2>Billetter</h2>
+        <p>Billetter til festivalen kan købes via <a href="http//fondenvoxhall.dk">fondenvoxhall.dk</a><br>
+        Partout: 390 kr.</p>
+    </div>
+    <div id="info-contact" class="info-box">
+        <h2>Kontakt</h2>
+        <p>Bjørn Lydén<br>
+            Poprevolution Århus<br>
+            Jordbrovej 21, 3.th<br>
+            8000 Aarhus N<br>
+            Email: <a href="mailto:nikolaj@smashbangpow.dk">nikolaj@smashbangpow.dk</a></p>
+    </div>
+</div>

@@ -7,6 +7,47 @@
 
     function artists() {
         var artistlist = [
+
+            {
+                active: true,
+                country: 'UK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'The Pop Group',
+                image: 'thepopgroup.jpg',
+                info: 'To album og et par singler. Mere skulle der i ‘79/’80 ikke til, før The Pop Group kunne blive et af rockens mest stilskabende navne med deres tidlige bud på rastløshed, dissonans og politiskbevidsthed udtrykt gennem den ganske vist sortrandede, men også dynamiske genre, der senere blev døbt postpunk. Det er efterhånden 35 år siden, men den 23. februar flænses stilheden igen af The Pop Group, når de udgiver albummet Citizen Zombie og tager på den turné, der sender bandet til Pop Revo.\n The Pop Groups indflydelse høres hos stort set samtlige navne, der i dag får postpunk-stemplet, men allerede Nick Cave og Sonic Youth krediterede The Pop Group som vigtig inspirationskilde.Det, som gjorde punken til postpunk var i høj grad The Pop Groups tunge, rytmisk bund, der var inspireret af lige dele funk, freejazz og dub. Således var det dub ikonet Dennis Bovell, der producerede mesterværket "Y"(1979), som gruppen debuterede med. Et album som Pitchfork tildelte plads 35 på deres liste over de hundrede bedste album fra 70\'erne (foran Rumours, Dark side of the moon, Hunky Dory m.m.fl.!), og beskrev som: "This is a record of dire necessity, armed for combat against a long litany of ills-- none more than typicality."',
+                size: 'big',
+                slug: 'thepopgroup',
+                sound: {
+                    type: 'youtube',
+                    link: 'sL0tYowbIxE',
+                    title: 'She\'s beyond Good and Evil'
+                }
+            },
+            {
+                active: true,
+                country: 'UK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Dean Blunt',
+                image: 'deanblunt.jpg',
+                info: 'Hvis følelsen af fremmedgørelse i en hyperconnected verden havde et soundtrack, kunne Dean Blunt meget vel være musikeren bag. Siden Dean Blunt forlod Inga Copeland og deres fælles duo Hype Williams for at udgive debuten The Redeemer (2013), har den genreskyende brites sange vekslet mellem intimt bekendende tekster (og telefonsamtaler) og mystisk repetetive instrumenter produceret i undergrunden for Blunts ganske uimponerede og mere talende end syngende vokal.\n Hvor debuten The Redeemer i overvejende grad var baseret på strygere og programmering, forløser Dean Blunts på det aktuelle album Black Metal i overvejende grad sine sange med guitar, trommer og bas - men tag ikke fejl. Albumtitlen og ironiske sangtitler som “Punk” og “Country” til trods, er Dean Blunts musik fortsat umulig at betegne præcist.\n Black Metal er kulminationen af Dean Blunts langvarige forfinelse af sine evner til både at skabe et unikt univers og uafrystelige melodier. Lyt bare til sireneduetten "50 Cent".\n Soundvenue gav Black Metal 5/6 stjerner og skrev: "Der her er et ægte Dean Blunt-album, der med en let provokerende og original form vækker en nysgerrighed, der tilfredsstilles med nye detaljer ved hver gennemlytning.”',
+                size: 'big',
+                slug: 'deanblunt',
+                sound: {
+                    type: 'youtube',
+                    link: 'YQfwPziK-SA',
+                    title: '50 Cent'
+                }
+            },
             {
                 active: true,
                 country: 'US',
@@ -27,6 +68,7 @@
                     title: 'How Can You Really'
                 }
             },
+
             {
                 active: true,
                 country: 'CA',

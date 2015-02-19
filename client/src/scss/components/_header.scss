@@ -12,7 +12,7 @@ header {
     li {
       padding: em(18, 14) 0;
       display: block;
-      width: 33%;
+      width: 25%;
       float: left;
       @include bp(800) {
         width: auto;
@@ -48,6 +48,11 @@ header {
     .youtube {
       a {
         width: 28px;
+      }
+    }
+    .spotify {
+      a {
+        width: 20px;
       }
     }
   }

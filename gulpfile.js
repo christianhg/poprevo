@@ -35,7 +35,9 @@
             'angular/angular.js',
             'angular-animate/angular-animate.js',
             'angular-resource/angular-resource.js',
-            'ui-router/release/angular-ui-router.js'
+            'ui-router/release/angular-ui-router.js',
+            'lodash/dist/lodash.js',
+            'angular-google-maps/dist/angular-google-maps.js'
         ]
     };
 
@@ -158,10 +160,12 @@
         },
         dist: {
             css: [
-                'styles.min.css'
+                Date.now() + '.css'
+                //'styles.min.css'
             ],
             js: [
-                'app.min.js'
+                Date.now() + '.js'
+                //'app.min.js'
             ]
         },
 

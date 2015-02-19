@@ -1,5 +1,5 @@
 <div id="festivals">
-    <div class="festival" match-height ng-repeat="festival in vm.festivals" ng-class="$even ? 'odd' : 'even'">
+    <div class="festival festival-{{$index + 1}}" ng-repeat="festival in vm.festivals" ng-class="$even ? 'odd' : 'even'">
         <div class="festival-poster">
             <img ng-src="assets/images/posters/{{festival.poster}}" alt="Pop Revo {{festival.year}}">
         </div>

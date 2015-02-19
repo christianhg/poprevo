@@ -1,3 +1,31 @@
+#breadcrumbs {
+  ol {
+    display: inline-block;
+    li {
+      display: inline-block;
+      font-size: em(16,14);
+      line-height: em(28,16);
+      font-family: $sans-serif;
+      padding: 0 10px 0 0;
+      &.active {
+        &:after {
+          content: "\003E";
+        }
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 10px;
+        margin: 0 10px 0 0;
+        &:hover {
+          background: $yellow;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
 #lineup {
   padding: 28px 0;
   .artist {
@@ -64,6 +92,7 @@
           line-height: em(30,20);
           border: em(1,20) solid $yellow;
           margin: em(15,20,true) 0 0 10px;
+          transition: all 0.2s ease-in-out;
           &:hover {
             background: $black;
             color: $yellow
