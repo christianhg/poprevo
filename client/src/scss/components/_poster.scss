@@ -5,50 +5,52 @@ body {
 #poster {
   padding: 84px 0;
 
-  @extend %clearfix;
   #artists {
-
-    @include bp(1000) {
-      float: left;
-    }
-  }
-  .artist {
-    margin: 0 0 em(28,14);
-    h2 {
-      font-family: $sans-serif;
-      font-weight: bold;
-      a {
-        color: $white;
-        text-decoration: none;
-        &:hover {
-          color: $yellow;
+    
+    ul {
+      text-align: center;
+      li {
+        display: inline-block;
+        padding: 0 10px;
+        line-height: 1.5;
+        a {
+          color: $white;
+          text-decoration: none;
+          font-family: $sans-serif;
+          font-weight: bold;
+          &:hover {
+            color: $yellow;
+          }
         }
-      }
-      &.small {
-
-      }
-      &.medium {
-        font-size: em(42, 14);
-        line-height: em(56, 42);
         .origin {
-          font-size: em(28, 56);
+          font-style: italic;
+          position: relative;
+          font-size: 0.5em;
           top: -0.7em;
         }
       }
-      &.big {
-        font-size: em(70, 14);
-        line-height: em(70, 70);
-        .origin {
-          font-size: em(28, 70);
-          top: -1em;
-        }
+    }
+
+    #big {
+      margin: 0 0 28px;
+      font-size: 28px;
+      @include bp(600) {
+        font-size: 56px;
       }
-      .origin {
-        font-family: $serif;
-        font-weight: normal;
-        font-style: italic;
-        position: relative;
+      @include bp(1000) {
+        font-size: 84px;
       }
+    }
+
+    #small {
+      font-size: 20px;
+      @include bp(600) {
+        font-size: 28px;
+      }
+      @include bp(1000) {
+        font-size: 42px;
+      }
+
     }
   }
 
@@ -67,3 +69,56 @@ body {
     }
   }
 }
+
+  /*.artist {
+    //margin: 0 0 em(28,14);
+    display: inline-block;
+    h2 {
+      font-family: $sans-serif;
+      font-weight: bold;
+      a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          color: $yellow;
+        }
+      }
+      &.small {
+        font-size: em(20,14);
+        .origin {
+          font-size: 0.5em;
+          top: -0.7em;
+        }
+        @include bp(1000) {
+          font-size: em(42, 14);
+          line-height: em(56, 42);
+          .origin {
+            font-size: em(28, 42);
+            top: -0.7em;
+          }
+        }
+      }
+      &.big {
+        font-size: em(28,14);
+        .origin {
+          font-size: 0.5em;
+          top: -0.7em;
+        }
+        @include bp(1000) {
+          font-size: em(70, 14);
+          line-height: em(70, 70);
+          .origin {
+            font-size: em(28, 70);
+            top: -1em;
+          }
+        }
+
+      }
+      .origin {
+        font-family: $serif;
+        font-weight: normal;
+        font-style: italic;
+        position: relative;
+      }
+    }
+  }*/

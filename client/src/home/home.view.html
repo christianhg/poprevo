@@ -1,10 +1,27 @@
 <div id="poster">
     <div id="artists">
-        <div class="artist {{artist.slug}}" ng-repeat="artist in vm.artists">
+        <div id="big">
+            <ul>
+                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.bigArtists">
+                    <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                    <span class="origin">({{artist.country}})</span>
+                </li>
+            </ul>
+        </div>
+        <div id="small">
+            <ul>
+                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.smallArtists">
+                    <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                    <span class="origin">({{artist.country}})</span>
+                </li>
+            </ul>
+        </div>
+
+        <!--<div class="artist {{artist.slug}}" ng-repeat="artist in vm.artists">
             <h2 class="{{artist.size}}">
                 <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
                 <span class="origin">({{artist.country}})</span>
             </h2>
-        </div>
+        </div>-->
     </div>
 </div>

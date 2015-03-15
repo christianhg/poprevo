@@ -8,10 +8,14 @@
     color: $black;
     margin: 0 0 56px;
     p.lead {
-      font-size: 24px;
+      font-size: 20px;
       line-height: 1.5;
       padding: 0 20px;
       text-align: center;
+      @include bp(600) {
+        font-size: 24px;
+
+      }
     }
     a {
       color: $black;
@@ -23,7 +27,6 @@
   }
 
   #info-text {
-
     p {
       margin: 0 0 28px;
     }

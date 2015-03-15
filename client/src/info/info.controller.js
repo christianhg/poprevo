@@ -56,7 +56,7 @@
                 lng_min = bounds.southwest.longitude,
                 lng_range = bounds.northeast.longitude - lng_min;
 
-            if (idKey == null) {
+            if (idKey === null) {
                 idKey = "id";
             }
 
