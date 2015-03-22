@@ -209,6 +209,66 @@
                     link: 'hnm6TUTMymg',
                     title: 'No Time'
                 }
+            },
+            {
+                active: true,
+                country: 'DK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Secret Life',
+                image: 'secretlife.jpg',
+                info: 'Secret Life er en duo bestående af Patrick Kociszewskiog Bastian Emil. Bandet spiller mørk, aggressiv pop og har i det københavnske henrykket med energiske liveoptrædener. Lyden er skiftevis kølig og eksotisk, dansabel og melodiøs, mens Kociszewskis vokal er intens og pågående. Rytmerne er varierende og overraskende. Bandet er på vej med debutalbum.',
+                size: 'small',
+                slug: 'secretlife',
+                sound: {
+                    type: '',
+                    link: '',
+                    title: ''
+                }
+            },
+            {
+                active: true,
+                country: 'US',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Tomorrow\'s Tulips',
+                image: 'tomorrowstulips.jpg',
+                info: 'Tomorrow’s Tulips udgav deres debutalbum på Burger Records sidste år, en tilbagelænet, genrerystende sag med sirupssøde slowburners og glamaspirationer side om side med røgfulde eksperimenter.',
+                size: 'small',
+                slug: 'tomorrowstulips',
+                sound: {
+                    type: 'youtube',
+                    link: 'XXnbvEsyfnk',
+                    title: 'Flowers on the Wall'
+                }
+            },
+            {
+                active: true,
+                country: 'Aarhus',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Projektet “Collision with an insignificant city”',
+                image: 'collision.jpg',
+                info: 'Aarhus er midt i en musikalsk oplysningstid. Projektet “Collision with an insignificant city” skal ses som en hyldest til og et tidsbillede af den undergrundsscene som gør Aarhus til en signifikant by på det musikalske landkort.\nMusikere fra den alternative aarhusianske bands samles under navnet “Collision with an insignificant city” til en fælles koncert på Radar torsdag under Pop Revo, ud fra et ønske om at tydeliggøre og dokumentere scenens rivende udvikling. Koncerten optages og udgives som dobbeltvinyl. “Collison with an insignificant city” kurateres af forsanger Mikkel Holm fra det fremadstormende aarhusiansk rockorkester, Yung.',
+                size: 'smaller',
+                slug: 'collision',
+                sound: {
+                    type: 'youtube',
+                    link: '4gpu62Ps0B4',
+                    title: 'Yung: Nobody Cares'
+                }
             }
         ];
 

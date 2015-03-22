@@ -79,7 +79,7 @@
             if (!ov.southwest && nv.southwest) {
                 var markers = [];
                 for (var i = 0; i < 50; i++) {
-                    markers.push(createRandomMarker(i, $scope.map.bounds))
+                    markers.push(createRandomMarker(i, $scope.map.bounds));
                 }
                 console.log(markers);
                 $scope.randomMarkers = markers;

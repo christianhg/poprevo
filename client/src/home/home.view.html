@@ -16,7 +16,14 @@
                 </li>
             </ul>
         </div>
-
+        <div id="smaller">
+            <ul>
+                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.smallerArtists">
+                    <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                    <span class="origin">({{artist.country}})</span>
+                </li>
+            </ul>
+        </div>
         <!--<div class="artist {{artist.slug}}" ng-repeat="artist in vm.artists">
             <h2 class="{{artist.size}}">
                 <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>

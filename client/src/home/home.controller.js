@@ -12,6 +12,7 @@
 
         vm.bigArtists = $filter('filter')(vm.artists, {size: 'big'}, true);
         vm.smallArtists = $filter('filter')(vm.artists, {size: 'small'}, true);
+        vm.smallerArtists = $filter('filter')(vm.artists, {size: 'smaller'}, true);
 
     }
 })();
