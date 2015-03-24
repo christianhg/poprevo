@@ -252,6 +252,86 @@
             },
             {
                 active: true,
+                country: 'US',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Norman Blake & Jad Fair',
+                image: 'normanblakeandjadfair.jpg',
+                info: '',
+                size: 'small',
+                slug: 'normanblakeandjadfair',
+                sound: {
+                    type: '',
+                    link: '',
+                    title: ''
+                }
+            },
+            {
+                active: true,
+                country: 'CA',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'US Girls',
+                image: 'usgirls.jpg',
+                info: '',
+                size: 'small',
+                slug: 'usgirls',
+                sound: {
+                    type: '',
+                    link: '',
+                    title: ''
+                }
+            },
+            {
+                active: true,
+                country: 'DK',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Marching Church',
+                image: 'marchingchurch.jpg',
+                info: '',
+                size: 'small',
+                slug: 'marchingchurch',
+                sound: {
+                    type: '',
+                    link: '',
+                    title: ''
+                }
+            },
+            {
+                active: true,
+                country: 'US',
+                concert: {
+                    day: '',
+                    length: '',
+                    time: '',
+                    venue: ''
+                },
+                name: 'Cheval Sombre',
+                image: 'chevalsombre.jpg',
+                info: '',
+                size: 'small',
+                slug: 'chevalsombre',
+                sound: {
+                    type: '',
+                    link: '',
+                    title: ''
+                }
+            },
+            {
+                active: true,
                 country: 'Aarhus',
                 concert: {
                     day: '',
