@@ -261,13 +261,13 @@
                 },
                 name: 'Norman Blake & Jad Fair',
                 image: 'normanblakeandjadfair.jpg',
-                info: '',
+                info: 'Jad Fair har siden 1980 udgivet noget af de mest forunderlige musik til at komme ud af USA med sit band Half Japanese, hvor Fairs dybt originale sange inspirerede af kærlighed og sci-fi/monstre-film pakkes ind i en musikalsk enkel og råt ubarberet ramme, hvilket sikret bandet vaskeægte kultstatus. Den uortodokse musik og den æstetiske naivisme kan virke chokerende på nogen, men Fairs talent er at skrive sange der taler direkte til hjertet. Sideløbende har den uhyre produktive Fair udgivet en lang række solo album, samt adskillige samarbejdsprojekter, som resulteret i album med blandt mange andre: Daniel Johnston, Moe Tucker(Velvet Underground), Yo La Tengo, The Pastels, Danielson, R. Stevie Moore og altså nu også Norman Blake, hvis band Teenage Fanclub Fair også tidligere har lavet et album med.\nNorman Blake kendes bedst som sanger, guitarist og sangskiver i Skotlands Teenage Fanclub, der må siges at være et absolut flagskib på den skotske musikscene. De debuterede i 1990, og nåede med deres tredje album "Bandwagonesque" fra 1991 ud til et større publikum. Et særdeles anmelderrost album, som kritikerne placerede højt på deres årslister. Med udgangspunkt i den frodige skotske indiescene fra firserne, kombinerer bandet en skramlet D.I.Y attitude med ypperlig sangskrivning inspireret af navne som Beach Boys, Badfinger, Byrds og Big Star (et band som Teenage Fanclub i øvrigt kraftigt været med til at øge fokus på). Deres stærkt melodiske lyd er let genkendelig, og deres helt egne lokale variant af powerpop, som de forfinet over hidtil ti album, har gjort bandet højt elsket verden over af fans.\nVi selvsagt utrolig stolte af at disse to musikalske genier slår hovederne sammen på Pop Revo 2015 - forvent det uventet.',
                 size: 'small',
                 slug: 'normanblakeandjadfair',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: 'TC1qkZT68G0',
+                    title: 'Red Dress (Café&Pop Torgal)'
                 }
             },
             {
@@ -281,13 +281,13 @@
                 },
                 name: 'US Girls',
                 image: 'usgirls.jpg',
-                info: '',
+                info: 'Bag U.S Girls står Toronto-baseret Maghan Remy, der siden 2007 har spillet sin minimalistiske musik og visuelle kunst under navnet. Med en næsten militant attitude, der viser, hvor absolut nødvendig kunsten er for Remy, har hendes sange lænt sig op ad så forskellige inspirationskilder som firbåndsoptagelser, Springsteen-covers og den hippe artpopbaggrund hun selv kommer fra.',
                 size: 'small',
                 slug: 'usgirls',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: '9gPGflHGx7A',
+                    title: 'Jack'
                 }
             },
             {
@@ -301,13 +301,13 @@
                 },
                 name: 'Marching Church',
                 image: 'marchingchurch.jpg',
-                info: '',
+                info: 'Hvad der for Elias Bender Rønnenfeldt begyndte som et ritual alene er nu blevet til et maskulint rock-monster i form af projektet Marching Church. Omgivet af sine mest betroede venner har han svøbt sine sange ind i en tyk em af sex, agression, skrøbelighed og transformation og viser sig endnu en gang som en af de mest intense og interessant skikkelser i det nye årtusindes rock med albummet This World Is Not Enough, ude den 31. Marts på Sacred Bones.',
                 size: 'small',
                 slug: 'marchingchurch',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'soundcloud',
+                    link: 'https://soundcloud.com/sacredbones/marching-church-hungry-for-your-love/s-8znFd',
+                    title: 'Hungry For Love'
                 }
             },
             {
@@ -321,13 +321,13 @@
                 },
                 name: 'Cheval Sombre',
                 image: 'chevalsombre.jpg',
-                info: '',
+                info: 'Cheval Sombres univers er introspektivt, minimalistisk og svirrende. Musikken bærer spor af folk, sadcore og shoegaze, men befinder sig egentlig uden for genrer, tid og sted. Bag navnet gemmer sig et enmandsprojekt, der består af den New York-baserede sangskriver Christopher Porpora, som også har publiceret to digtsamlinger. I de sidste 7 år har han under navnet Cheval Sombre udgivet en håndfuld singler og to albums, senest højdepunktet "Mad Love" fra efteråret 2012. På sine indspilninger har Porpora ofte fået hjælp af MGMT, Dean Wareham (ex-Galaxie 500 og Luna), Britta Phillips og i særdeleshed Pete Kember (aka ”Sonic Boom” fra Spacemen 3). Efter at have oplevet Cheval Sombres magiske, næsten spirituelle koncert på sidste års Liverpool Psych Fest, har vi været opsatte på opleve Christopher Porpora fremføre sine lavmælte og drømmende sange i Danmark. Porpora optræder sjældent live og foretrækker små spillesteder med et hengivent publikum. På den baggrund er Pop Revo glade for at kunne præsentere Cheval Sombre i en atmosfærefyldt, akustisk solokoncert i intime rammer.',
                 size: 'small',
                 slug: 'chevalsombre',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: 'Jn5OFskAU_Q',
+                    title: 'Walking in the Desert'
                 }
             },
             {

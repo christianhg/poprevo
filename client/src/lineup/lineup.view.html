@@ -7,7 +7,10 @@
             </h2>
             <div class="artist-image">
                 <img ng-src="assets/images/artists/{{artist.image}}" alt="{{artist.name}}">
-                <youtube ng-show="artist.sound.link" link="{{artist.sound.link}}" title="{{artist.sound.title}}"></youtube>
+                <div ng-switch="artist.sound.type">
+                    <youtube ng-switch-when="youtube" ng-show="artist.sound.link" link="{{artist.sound.link}}" title="{{artist.sound.title}}"></youtube>
+                    <soundcloud ng-switch-when="soundcloud" ng-show="artist.sound.link" link="{{artist.sound.link}}" title="{{artist.sound.title}}"></soundcloud>
+                </div>
             </div>
             <div class="artist-info">{{artist.info}}</div>
         </div>
