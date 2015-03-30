@@ -12,7 +12,7 @@
                 active: true,
                 country: 'UK',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -32,7 +32,7 @@
                 active: true,
                 country: 'UK',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -52,7 +52,7 @@
                 active: true,
                 country: 'US',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -73,7 +73,7 @@
                 active: true,
                 country: 'CA',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -93,7 +93,7 @@
                 active: true,
                 country: 'UK',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -114,7 +114,7 @@
                 active: true,
                 country: 'CA',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -134,7 +134,7 @@
                 active: true,
                 country: 'SE',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -154,7 +154,7 @@
                 active: true,
                 country: 'US',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -174,7 +174,7 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -194,7 +194,7 @@
                 active: true,
                 country: 'UK',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -214,7 +214,7 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
+                    day: 'thursday',
                     length: '',
                     time: '',
                     venue: ''
@@ -234,7 +234,7 @@
                 active: true,
                 country: 'US',
                 concert: {
-                    day: '',
+                    day: 'thursday',
                     length: '',
                     time: '',
                     venue: ''
@@ -254,7 +254,7 @@
                 active: true,
                 country: 'US',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -274,7 +274,7 @@
                 active: true,
                 country: 'CA',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -294,7 +294,7 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
+                    day: 'friday',
                     length: '',
                     time: '',
                     venue: ''
@@ -314,7 +314,7 @@
                 active: true,
                 country: 'US',
                 concert: {
-                    day: '',
+                    day: 'saturday',
                     length: '',
                     time: '',
                     venue: ''
@@ -334,7 +334,7 @@
                 active: true,
                 country: 'Aarhus',
                 concert: {
-                    day: '',
+                    day: 'thursday',
                     length: '',
                     time: '',
                     venue: ''

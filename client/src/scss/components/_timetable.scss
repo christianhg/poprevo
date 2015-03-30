@@ -1,0 +1,37 @@
+#timetable {
+  padding: 28px*2 0;
+  h2 {
+    font-size: 3em;
+    line-height: 32px;
+    position: relative;
+    z-index: 2;
+  }
+  ol {
+    border-top: 5px solid $yellow;
+    position: relative;
+    //top: -3px;
+
+    //color: $black;
+    font-family: $sans-serif;
+    font-weight: bold;
+    margin: 0 0 28px;
+
+    li {
+      background: $yellow;
+      margin: 0 40px;
+      padding: 0 10px;
+      @include bp(600) {
+        font-size: 1.3em;
+        padding: 0 20px;
+      }
+      line-height: 3em;
+      a {
+        color: $black;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
