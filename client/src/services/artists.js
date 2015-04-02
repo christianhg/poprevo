@@ -342,7 +342,7 @@
                 name: 'Projektet “Collision with an insignificant city”',
                 image: 'collision.jpg',
                 info: 'Aarhus er midt i en musikalsk oplysningstid. Projektet “Collision with an insignificant city” skal ses som en hyldest til og et tidsbillede af den undergrundsscene som gør Aarhus til en signifikant by på det musikalske landkort.\nMusikere fra den alternative aarhusianske bands samles under navnet “Collision with an insignificant city” til en fælles koncert på Radar torsdag under Pop Revo, ud fra et ønske om at tydeliggøre og dokumentere scenens rivende udvikling. Koncerten optages og udgives som dobbeltvinyl. “Collison with an insignificant city” kurateres af forsanger Mikkel Holm fra det fremadstormende aarhusiansk rockorkester, Yung.',
-                size: 'smaller',
+                size: 'medium',
                 slug: 'collision',
                 sound: {
                     type: 'youtube',

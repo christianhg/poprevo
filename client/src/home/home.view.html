@@ -8,17 +8,17 @@
                 </li>
             </ul>
         </div>
-        <div id="small">
+        <div id="medium">
             <ul>
-                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.smallArtists">
+                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.mediumArtists">
                     <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
                     <span class="origin">({{artist.country}})</span>
                 </li>
             </ul>
         </div>
-        <div id="smaller">
+        <div id="small">
             <ul>
-                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.smallerArtists">
+                <li class="artist {{artist.slug}}" ng-repeat="artist in vm.smallArtists | orderBy: 'slug'">
                     <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
                     <span class="origin">({{artist.country}})</span>
                 </li>

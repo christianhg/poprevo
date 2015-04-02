@@ -54,6 +54,9 @@ footer {
         padding: em(49,14) 0;
 
       }
+      &.radar {
+        padding: em(21,14) 0;
+      }
     }
   }
   .aarhuskommune {
@@ -70,6 +73,9 @@ footer {
   }
   .voxhall {
     width: em(28,14) * $voxhallAspect;
+  }
+  .radar {
+    width: em(84,14) * $radarAspect;
   }
 }
 

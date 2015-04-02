@@ -53,10 +53,11 @@ body {
       }
     }
 
-    #smaller {
-      font-size: 20px;
+    #medium {
+      font-size: 24px;
+      margin: 0 0 28px;
       @include bp(600) {
-        font-size: 28px;
+        font-size: 32px;
       }
       @include bp(1000) {
         font-size: 38px;
