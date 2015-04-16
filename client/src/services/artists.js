@@ -359,10 +359,10 @@
                     venue: ''
                 },
                 name: 'Total Heels',
-                image: '',
+                image: 'totalheels.jpg',
                 info: '',
                 size: '',
-                slug: '',
+                slug: 'totalheels',
                 sound: {
                     type: '',
                     link: '',
@@ -378,10 +378,10 @@
                     venue: ''
                 },
                 name: 'Molly',
-                image: '',
+                image: 'molly.jpg',
                 info: '',
                 size: '',
-                slug: '',
+                slug: 'molly',
                 sound: {
                     type: '',
                     link: '',
@@ -397,10 +397,10 @@
                     venue: ''
                 },
                 name: 'Thulebasen',
-                image: '',
+                image: 'thulebasen.jpg',
                 info: '',
                 size: '',
-                slug: '',
+                slug: 'thulebasen',
                 sound: {
                     type: '',
                     link: '',
@@ -416,10 +416,10 @@
                     venue: ''
                 },
                 name: 'Jonas Munk/Nicklas Sørensen',
-                image: '',
+                image: 'jonasmunknicklassoerensen.jpg',
                 info: '',
                 size: '',
-                slug: '',
+                slug: 'jonasmunknicklassoerensen',
                 sound: {
                     type: '',
                     link: '',
@@ -434,11 +434,11 @@
                     time: '',
                     venue: ''
                 },
-                name: 'CTM',
-                image: '',
+                name: 'Liss',
+                image: 'liss.jpg',
                 info: '',
                 size: '',
-                slug: '',
+                slug: 'liss',
                 sound: {
                     type: '',
                     link: '',
