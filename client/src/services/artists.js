@@ -352,7 +352,7 @@
             },
             {
                 active: true,
-                country: 'US/DK',
+                country: 'DK/US',
                 concert: {
                     day: '',
                     time: '',
@@ -360,13 +360,13 @@
                 },
                 name: 'Total Heels',
                 image: 'totalheels.jpg',
-                info: '',
-                size: '',
+                info: 'Total Heels har taget vejen udenom Danmark og direkte til USA i deres musikalske færd - både når det kommer til deres lyd og deres vej fra undergrund til Pitchfork, Spin og Noisey.\nOg dog er man ikke et øjeblik i tvivl om, at Københavns DIY-scene er kvartettens ophav - heller ikke selvom forsanger Jason Orlovich stadig af og til kommer direkte til koncerterne fra sin egen hjemstavn i USA - og heller ikke selvom Total Heels musikalske referencer peger mere mod The Men, Crystal Stilts, Ty Segall og Steve Wynn end Mayhem og Pærepunk.\nTransatlantisk eller ej, Total Heels’ er ubesværet, direkte, underholdende og rammende rock til hyldepladsen mellem “classic rock” og “støjrock”.',
+                size: 'small',
                 slug: 'totalheels',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: 'H8qddzw6wsc',
+                    title: 'Exhaus Trier'
                 }
             },
             {
@@ -379,13 +379,13 @@
                 },
                 name: 'Molly',
                 image: 'molly.jpg',
-                info: '',
-                size: '',
+                info: 'Den københavnske punk/rock trio Molly blev dannet i 2012. Molly har tidligere udgivet Live På Floss (2012) og Hernia (2013) og er nu aktuelle med udgivelsen Peach Melba (2015). Mollys udgangspunkt er “alternativ rock”, den dejligt bredde genrebetegnelse, som udgør et elastisk legerum for mangt et dansk band. Med Peach Melba indblander Molly særligt en skødesløs punkattitude.',
+                size: 'small',
                 slug: 'molly',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: '8TYQjPCoTd0',
+                    title: 'Bagu Bagu'
                 }
             },
             {
@@ -398,13 +398,13 @@
                 },
                 name: 'Thulebasen',
                 image: 'thulebasen.jpg',
-                info: '',
-                size: '',
+                info: 'Thulebasen er ægte Pop Revo-darlinger. Faktisk bliver koncerten til Pop Revo 2015 deres tredje koncert på festivalen, ligesom de i år arbejder på deres tredje album, opfølgeren til den stærkt roste Gate 5. Som midtpunkt i bandet er Nis Bysted, der såmænd også er medejer af Escho og producer for en lang række af danske bands som Iceage, Choir Of Young Believers og Lower. Sidstnævnte spillede Thulebasen faktisk med, sidst de gæstede Pop Revo. Hvad der er i vente er ikke godt at vide, for trioen er evigt omskiftelig - siden sidst fået ny trommeslager, mens liveoplevelsen er lige så eksplosiv.',
+                size: 'small',
                 slug: 'thulebasen',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: 'zasX55vJW3g',
+                    title: 'Raga Gemini'
                 }
             },
             {
@@ -417,13 +417,13 @@
                 },
                 name: 'Jonas Munk/Nicklas Sørensen',
                 image: 'jonasmunknicklassoerensen.jpg',
-                info: '',
-                size: '',
+                info: 'Sammen vil Jonas Munk og Nicklas Sørensen, med udgangspunkt i materiale fra Jonas Munk\'s soloudgivelser og Nicklas Sørensens kommende plade, bevæge sig ud på en semi-improviseret rejse, hvor adskillige lag af analoge synthesizere og guitar fuzz væves sammen til en bevidsthedsudvidende helhed.\nUdover at spille guitar i syrebandet Causa Sui kører Jonas Munk pladeselskabet El Paraiso Records og har udgivet to album under sit borgerlige navn. Pladerne udforsker grænselandet mellem meditativ minimalisme og frit flydende psychedelia. Nicklas Sørensen er til dagligt guitarist i bandet Papir og arbejder i øjeblikket på sin solo debutplade. ',
+                size: 'small',
                 slug: 'jonasmunknicklassoerensen',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'youtube',
+                    link: '5fbd79t6OUk',
+                    title: 'Current'
                 }
             },
             {
@@ -436,13 +436,13 @@
                 },
                 name: 'Liss',
                 image: 'liss.jpg',
-                info: '',
-                size: '',
+                info: 'De fire aarhusianeres pressefoto ligner et ungdomsportræt fra 9’0erne og gennem Liss’ musik erfarer man, at 80‘erne ikke har levet forgæves. I den ovenud lovende kvartets vellydende fortolkninger bliver de to årtiers æstetikker forløs som moderne popmusik mellem slapbas, Arthur Russell, First Hate og Rhye. Liss udsendte deres første nummer nummer, “Try”, for et par måneder siden, men allerede opnået over 20.000 Soundcloud-plays, supportet såvel Dean Blunt som Jungle, og er dermed godt på vej ud over stepperne allerede.',
+                size: 'small',
                 slug: 'liss',
                 sound: {
-                    type: '',
-                    link: '',
-                    title: ''
+                    type: 'soundcloud',
+                    link: 'https://soundcloud.com/liss2014/try',
+                    title: 'Try'
                 }
             }
         ];

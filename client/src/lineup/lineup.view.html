@@ -5,14 +5,14 @@
                 {{artist.name}}
                 <span class="origin">({{artist.country}})</span>
             </h2>
-            <div class="artist-image">
+            <div class="artist-image" ng-show="artist.image">
                 <img ng-src="assets/images/artists/{{artist.image}}" alt="{{artist.name}}">
                 <div ng-switch="artist.sound.type">
                     <youtube ng-switch-when="youtube" ng-show="artist.sound.link" link="{{artist.sound.link}}" title="{{artist.sound.title}}"></youtube>
                     <soundcloud ng-switch-when="soundcloud" ng-show="artist.sound.link" link="{{artist.sound.link}}" title="{{artist.sound.title}}"></soundcloud>
                 </div>
             </div>
-            <div class="artist-info">{{artist.info}}</div>
+            <div ng-class="{'full-width': !artist.image}" class="artist-info">{{artist.info}}</div>
         </div>
     </div>
 </div>

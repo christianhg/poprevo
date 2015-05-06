@@ -24,7 +24,7 @@ a {
   color: $yellow;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: $sans-serif;
   font-weight: bold;
 }
@@ -32,4 +32,8 @@ h1, h2 {
 h2 {
   font-size: em(28,14);
 
+}
+
+h3 {
+  font-size: em(18,14);
 }
