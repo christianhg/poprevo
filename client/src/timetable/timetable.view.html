@@ -1,14 +1,35 @@
 <div id="timetable">
     <h2>Torsdag</h2>
     <ol>
-        <li ng-repeat="artist in vm.thursday"><a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a></li>
+        <li ng-repeat="artist in vm.thursday | orderBy: 'concert.time'">
+            <span class="concert-time">{{artist.concert.time | niceTime}}</span>
+            <span class="concert-artist">
+                <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                <span class="concert-line"></span>
+            </span>
+            <span class="concert-venue">{{artist.concert.venue}}</span>
+        </li>
     </ol>
     <h2>Fredag</h2>
     <ol>
-        <li ng-repeat="artist in vm.friday"><a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a></li>
+        <li ng-repeat="artist in vm.friday | orderBy: 'concert.time'">
+            <span class="concert-time">{{artist.concert.time | niceTime}}</span>
+            <span class="concert-artist">
+                <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                <span class="concert-line"></span>
+            </span>
+            <span class="concert-venue">{{artist.concert.venue}}</span>
+        </li>
     </ol>
     <h2>Lørdag</h2>
     <ol>
-        <li ng-repeat="artist in vm.saturday"><a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a></li>
+        <li ng-repeat="artist in vm.saturday | orderBy: 'concert.time'">
+            <span class="concert-time">{{artist.concert.time | niceTime}}</span>
+            <span class="concert-artist">
+                <a ui-sref="lineup.artist({artist: artist.slug})">{{artist.name}}</a>
+                <span class="concert-line"></span>
+            </span>
+            <span class="concert-venue">{{artist.concert.venue}}</span>
+        </li>
     </ol>
 </div>

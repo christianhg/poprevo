@@ -1,35 +1,103 @@
 #timetable {
   padding: 28px*2 0;
   h2 {
+    color: $yellow;
+    text-transform: uppercase;
+    font-style: italic;
     font-size: 3em;
+    font-family: $serif;
+    font-weight: normal;
     line-height: 32px;
+    margin: 0 0 28px;
+    text-align: center;
     position: relative;
     z-index: 2;
   }
   ol {
-    border-top: 5px solid $yellow;
     position: relative;
-    //top: -3px;
-
-    //color: $black;
-    font-family: $sans-serif;
-    font-weight: bold;
-    margin: 0 0 28px;
+    margin: 0 0 28px*2;
 
     li {
-      background: $yellow;
-      margin: 0 40px;
-      padding: 0 10px;
-      @include bp(600) {
-        font-size: 1.3em;
-        padding: 0 20px;
+      @extend %clearfix;
+
+      margin: 0 0 14px;
+      position: relative;
+      text-transform: uppercase;
+      text-align: center;
+
+      .concert-time {
+
+        color: $black;
+        display: inline-block;
+        background: $yellow;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        font-family: $serif;
+        padding: 0 10px;
+        text-align: left;
+        @include bp(800) {
+          font-size: 1.3em;
+        }
       }
-      line-height: 3em;
+      .concert-artist {
+        display: inline-block;
+        background: red;
+        font-family: $sans-serif;
+        font-weight: bold;
+        text-transform: none;
+        @include bp(800) {
+          font-size: 1.3em;
+        }
+        @include bp(1000) {
+          font-size: 1.5em;
+        }
+        a {
+          position: relative;
+          z-index: 2;
+        }
+        .concert-line {
+          display: block;
+          background: $yellow;
+          height: 2px;
+          position: absolute;
+          width: 100%;
+          left: 0;
+
+          top: 50%;
+          margin-top: -1px;
+        }
+      }
+      .concert-venue {
+        color: $black;
+        display: inline-block;
+
+        font-family: $serif;
+
+        padding: 0 10px;
+        text-align: right;
+        background: $yellow;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        @include bp(800) {
+          font-size: 1.3em;
+        }
+      }
+
+      @include bp(600) {
+        //font-size: 1.3em;
+        //padding: 0 20px;
+      }
+      //line-height: 3em;
       a {
         color: $black;
+        display: inline-block;
+        background: $yellow;
+        padding: 0 10px;
         text-decoration: none;
         &:hover {
-          text-decoration: underline;
+          background: darken($yellow, 20%);
         }
       }
     }

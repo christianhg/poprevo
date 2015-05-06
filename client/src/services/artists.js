@@ -13,9 +13,8 @@
                 country: 'UK',
                 concert: {
                     day: 'saturday',
-                    length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 22:15:00',
+                    venue: 'Voxhall'
                 },
                 name: 'The Pop Group',
                 image: 'thepopgroup.jpg',
@@ -33,9 +32,8 @@
                 country: 'UK',
                 concert: {
                     day: 'friday',
-                    length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-15 20:00:00',
+                    venue: 'Voxhall'
                 },
                 name: 'Dean Blunt',
                 image: 'deanblunt.jpg',
@@ -53,9 +51,8 @@
                 country: 'US',
                 concert: {
                     day: 'friday',
-                    length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 00:30:00',
+                    venue: 'Voxhall'
                 },
                 name: 'Foxygen',
                 image: 'foxygen.jpg',
@@ -74,9 +71,8 @@
                 country: 'CA',
                 concert: {
                     day: 'saturday',
-                    length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-17 00:30:00',
+                    venue: 'Voxhall'
                 },
                 name: 'Viet Cong',
                 image: 'vietcong.jpg',
@@ -94,9 +90,8 @@
                 country: 'UK',
                 concert: {
                     day: 'saturday',
-                    length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 19:00:00',
+                    venue: 'Atlas'
                 },
                 name: 'Happyness',
                 image: 'happyness.jpg',
@@ -116,8 +111,8 @@
                 concert: {
                     day: 'friday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-15 23:30:00',
+                    venue: 'Atlas'
                 },
                 name: 'Doldrums',
                 image: 'doldrums.jpg',
@@ -136,8 +131,8 @@
                 concert: {
                     day: 'friday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-15 22:15:00',
+                    venue: 'Voxhall'
                 },
                 name: 'Les Big Byrd',
                 image: 'lesbigbyrd.jpg',
@@ -156,8 +151,8 @@
                 concert: {
                     day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 23:30:00',
+                    venue: 'Atlas'
                 },
                 name: 'Doug Tuttle',
                 image: 'dougtuttle.jpg',
@@ -174,10 +169,10 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: 'friday',
+                    day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 21:15:00',
+                    venue: 'Atlas'
                 },
                 name: 'Gooms',
                 image: 'gooms.jpg',
@@ -196,8 +191,8 @@
                 concert: {
                     day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 20:00:00',
+                    venue: 'Voxhall'
                 },
                 name: 'The Soft Walls',
                 image: 'thesoftwalls.jpg',
@@ -216,8 +211,8 @@
                 concert: {
                     day: 'thursday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-14 23:00:00',
+                    venue: 'Radar'
                 },
                 name: 'Secret Life',
                 image: 'secretlife.jpg',
@@ -236,8 +231,8 @@
                 concert: {
                     day: 'thursday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-14 22:00:00',
+                    venue: 'Radar'
                 },
                 name: 'Tomorrow\'s Tulips',
                 image: 'tomorrowstulips.jpg',
@@ -256,8 +251,8 @@
                 concert: {
                     day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 23:30:00',
+                    venue: 'Radar'
                 },
                 name: 'Norman Blake & Jad Fair',
                 image: 'normanblakeandjadfair.jpg',
@@ -276,8 +271,8 @@
                 concert: {
                     day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 21:15:00',
+                    venue: 'Radar'
                 },
                 name: 'US Girls',
                 image: 'usgirls.jpg',
@@ -296,8 +291,8 @@
                 concert: {
                     day: 'friday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-15 23:30:00',
+                    venue: 'Radar'
                 },
                 name: 'Marching Church',
                 image: 'marchingchurch.jpg',
@@ -316,8 +311,8 @@
                 concert: {
                     day: 'saturday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-16 19:00:00',
+                    venue: 'Radar'
                 },
                 name: 'Cheval Sombre',
                 image: 'chevalsombre.jpg',
@@ -336,8 +331,8 @@
                 concert: {
                     day: 'thursday',
                     length: '',
-                    time: '',
-                    venue: ''
+                    time: '2015-05-14 20:00:00',
+                    venue: 'Radar'
                 },
                 name: 'Projektet “Collision with an insignificant city”',
                 image: 'collision.jpg',
@@ -354,9 +349,9 @@
                 active: true,
                 country: 'DK/US',
                 concert: {
-                    day: '',
-                    time: '',
-                    venue: ''
+                    day: 'saturday',
+                    time: '2015-05-17 01:30:00',
+                    venue: 'Radar'
                 },
                 name: 'Total Heels',
                 image: 'totalheels.jpg',
@@ -373,9 +368,9 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
-                    time: '',
-                    venue: ''
+                    day: 'friday',
+                    time: '2015-05-15 19:00:00',
+                    venue: 'Atlas'
                 },
                 name: 'Molly',
                 image: 'molly.jpg',
@@ -392,9 +387,9 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
-                    time: '',
-                    venue: ''
+                    day: 'friday',
+                    time: '2015-05-15 21:15:00',
+                    venue: 'Radar'
                 },
                 name: 'Thulebasen',
                 image: 'thulebasen.jpg',
@@ -411,9 +406,9 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
-                    time: '',
-                    venue: ''
+                    day: 'friday',
+                    time: '2015-05-15 21:15:00',
+                    venue: 'Atlas'
                 },
                 name: 'Jonas Munk/Nicklas Sørensen',
                 image: 'jonasmunknicklassoerensen.jpg',
@@ -430,9 +425,9 @@
                 active: true,
                 country: 'DK',
                 concert: {
-                    day: '',
-                    time: '',
-                    venue: ''
+                    day: 'friday',
+                    time: '2015-05-15 19:00:00',
+                    venue: 'Radar'
                 },
                 name: 'Liss',
                 image: 'liss.jpg',

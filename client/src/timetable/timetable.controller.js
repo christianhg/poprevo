@@ -13,5 +13,7 @@
         vm.thursday = $filter('filter')(vm.artists, {concert: { day: 'thursday'}}, true);
         vm.friday = $filter('filter')(vm.artists, {concert: { day: 'friday'}}, true);
         vm.saturday = $filter('filter')(vm.artists, {concert: { day: 'saturday'}}, true);
+
+
     }
 })();
