@@ -14,29 +14,36 @@ footer {
 }
 
 #partners {
-
   .container {
     @extend %clearfix;
     padding: em(42, 14) 10px 0;
   }
+
+  @include bp(600) {
+
+  }
+
   @include bp(1000) {
     text-align: center;
   }
+
 
 
   li {
     display: block;
     margin: 0 auto em(42, 14);
 
+    img {
+      //display: inline-block;
+    }
+
+
     @include bp(1000) {
       //float: left;
       display: inline-block;
-      margin: 0 40px em(42,14);
+      margin: 0 20px em(42,14);
       &.aarhuskommune {
-
-
         padding: em(28,14) 0;
-
       }
       &.atlas {
 
@@ -44,11 +51,9 @@ footer {
       }
       &.badstuerock {
         //padding: 0 20px;
-
       }
       &.smashbangpow {
         padding: em(21,14) 0;
-
       }
       &.voxhall {
         padding: em(49,14) 0;
@@ -57,10 +62,19 @@ footer {
       &.radar {
         padding: em(21,14) 0;
       }
+      &.djb {
+
+      }
+      &.fritzkola {
+        padding: em(21,14) 0;
+      }
+      &.dmf {
+        padding: em(10.5,14) 0;
+      }
     }
   }
   .aarhuskommune {
-    width: em(70,14) * $aarhusAspect;
+    width: em(84,14) * $aarhusAspect;
   }
   .atlas {
     width: em(56,14) * $atlasAspect;
@@ -76,6 +90,15 @@ footer {
   }
   .radar {
     width: em(84,14) * $radarAspect;
+  }
+  .djb {
+    width: em(126,14) * $djbAspect;
+  }
+  .fritzkola {
+    width: 84px * $fritzkolaAspect;
+  }
+  .dmf {
+    width: em(126,14) * $dmfAspect;
   }
 }
 
