@@ -19,33 +19,40 @@
 
     li {
       @extend %clearfix;
-
-      margin: 0 0 14px;
+      margin: 0 0 28px;
       position: relative;
       text-transform: uppercase;
       text-align: center;
 
       .concert-time {
-
         color: $black;
         display: inline-block;
         background: $yellow;
-        position: absolute;
+        position: relative;
         z-index: 2;
         left: 0;
+        margin: 0 0 10px;
         font-family: $serif;
         padding: 0 10px;
         text-align: left;
+        @include bp(600) {
+          margin: 0;
+          position: absolute;
+        }
         @include bp(800) {
           font-size: 1.3em;
         }
       }
       .concert-artist {
-        display: inline-block;
-        background: red;
+        display: block;
         font-family: $sans-serif;
         font-weight: bold;
         text-transform: none;
+        margin: 0 0 10px;
+        @include bp(600) {
+          display: inline-block;
+          margin: 0;
+        }
         @include bp(800) {
           font-size: 1.3em;
         }
@@ -59,13 +66,25 @@
         .concert-line {
           display: block;
           background: $yellow;
-          height: 2px;
-          position: absolute;
-          width: 100%;
-          left: 0;
 
-          top: 50%;
-          margin-top: -1px;
+          height: 100%;
+          position: absolute;
+
+          width: 2px;
+
+          left: 50%;
+
+          top: 0;
+          z-index: 1;
+          margin-left: -1px;
+          @include bp(600) {
+            height: 2px;
+            left: 0;
+            margin-left: 0;
+            margin-top: -1px;
+            top: 50%;
+            width: 100%;
+          }
         }
       }
       .concert-venue {
@@ -77,9 +96,12 @@
         padding: 0 10px;
         text-align: right;
         background: $yellow;
-        position: absolute;
+        position: relative;
         right: 0;
         z-index: 2;
+        @include bp(600) {
+          position: absolute;
+        }
         @include bp(800) {
           font-size: 1.3em;
         }

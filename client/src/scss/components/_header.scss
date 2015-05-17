@@ -182,13 +182,20 @@ header {
       background: darken($yellow, 15%);
       border-top: 1px solid $black;
       border-bottom: 1px solid $black;
-      display: none;
+      opacity: 0;
+      visibility: hidden;
       margin: -1px -40px 0;
       position: relative;
+      height: 0px;
+      overflow: hidden;
       z-index: 1;
+      transition: opacity 0.2s ease-in-out;
 
       &.active {
-        display: block;
+        height: auto;
+        opacity: 1;
+        overflow: visible;
+        visibility: visible;
       }
 
       @include bp(1000) {
@@ -197,7 +204,10 @@ header {
         margin: 0;
         float: right;
         &.inactive {
-          display: block;
+          height: auto;
+          opacity: 1;
+          overflow: visible;
+          visibility: visible;
         }
       }
 

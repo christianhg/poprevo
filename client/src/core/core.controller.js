@@ -8,6 +8,9 @@
     function CoreController($scope) {
         $scope.$on('$stateChangeSuccess', function(event, toState) {
             $scope.pageTitle = toState.data.pageTitle;
+            if($scope.menuOpen) {
+                $scope.menuOpen = false;
+            }
         });
 
         $scope.menuOpen = false;
