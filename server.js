@@ -10,6 +10,4 @@
     var server = app.listen(2000, function() {
         console.log('workin');
     });
-
-
 })();
