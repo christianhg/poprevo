@@ -2,6 +2,10 @@
   "name": "poprevo",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "gulp watch",
+    "dist": "gulp dist"
+  },
   "devDependencies": {
     "express": "^4.10.5",
     "gulp": "^3.8.10",
@@ -18,7 +22,7 @@
     "gulp-ng-annotate": "^0.4.3",
     "gulp-plumber": "^0.6.6",
     "gulp-replace": "^0.5.0",
-    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^1.0.2",
     "gulp-using": "0.0.1",
     "jshint-stylish": "^1.0.0"

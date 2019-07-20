@@ -14,11 +14,13 @@
     var ngAnnotate = require('gulp-ng-annotate');
     var plumber = require('gulp-plumber');
     var replace = require('gulp-replace');
-    var sass = require('gulp-ruby-sass');
+    var sass = require('gulp-sass');
     var stylish = require('jshint-stylish');
     var templateCache = require('gulp-angular-templatecache');
     var uglify = require('gulp-uglify');
     var using = require('gulp-using');
+
+    sass.compiler = require('node-sass');
 
     /**
      * Define third-party CSS and JS dependencies.
@@ -349,7 +351,7 @@
 
         return gulp.src(sources.ignore.concat(sources.scss))
             .pipe(plumber())
-            .pipe(sass({style: 'expanded'}))
+            .pipe(sass({outputStyle: 'expanded'}))
             //.pipe(autoPrefixer('last 2 version'))
             .pipe(gulp.dest(paths.client.build.css.app));
     });
